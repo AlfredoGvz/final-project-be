@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 const toiletSchema = new mongoose.Schema({
+  refuge_id: Number,
   name: String,
   street: String,
   city: String,
