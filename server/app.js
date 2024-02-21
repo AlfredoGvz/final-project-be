@@ -1,3 +1,4 @@
+const client = require('../server/connection')
 const express = require("express");
 const app = express();
 const {
@@ -13,5 +14,13 @@ app.use((err, req, res, next) => {
     res.status(404).send({ msg: "City not found" });
   }
 });
+
+// client.connect().then(() => {
+//   console.log(`Connected to MongoDB database: ${client.s.options.dbName}`);
+// })
+// .then(() => {
+//   client.close()
+//   console.log('Client closed successfully');
+// });
 
 module.exports = app;
