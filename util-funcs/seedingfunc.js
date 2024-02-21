@@ -1,7 +1,7 @@
 const axios = require('axios')
-const { cities } = require('../test-data/cities')
-const client = require('../../server/connection')
-const { json } = require('express')
+const { cities } = require('../data/test-data/cities')
+const client = require('../server/connection')
+const fs = require("fs").promises
 const db = client.db()
 
 client.connect()
@@ -11,6 +11,7 @@ client.connect()
 
 async function populateToiletsInCities() {
     try {
+        let allToiletsData = [];
         for (const city of cities) {
             const { name, latitude, longitude } = city
             console.log(city, '<<< each city object');
@@ -27,23 +28,27 @@ async function populateToiletsInCities() {
                 }
             );
             const toiletsData = info.data;
-            
-            fs write file to json
-            use correct schema 
-            replant the dev db
-
-
             console.log(toiletsData, '<<<<< each city data in the populate func');
+      
+            // Concatenate current city's toilet data with allToiletsData array
+            allToiletsData = allToiletsData.concat(toiletsData);
+          }
+      
+          // Write allToiletsData to toilets.json file
+          await fs.writeFile('toilets.json', JSON.stringify(allToiletsData, null, 2));
+          console.log('All toilets data written to toilets.json');
+        } catch (err) {
+          console.error("Error", err);
         }
-    } catch (err) {
-        console.error("Error", err);
-    }
+      }
+      
+      populateToiletsInCities();
+      
 
-
-    for (const toilet of toiletsData) {
-        const existingToilet = await db.collection('toilets').findOne({ id: toilet.id });
-        console.log(existingToilet);
-    }
+    // for (const toilet of toiletsData) {
+    //     const existingToilet = await db.collection('toilets').findOne({ id: toilet.id });
+    //     console.log(existingToilet);
+    // }
 
 
 
@@ -88,5 +93,3 @@ async function populateToiletsInCities() {
 //  catch (err) {
 // console.error("Error", err);
 // }
-
-populateToiletsInCities()
