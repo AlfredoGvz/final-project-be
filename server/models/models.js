@@ -1,5 +1,5 @@
 const client = require("../connection");
-const db = client.db("final_project_db_test");
+const db = client.db("development");
 client.connect();
 
 async function getCities() {
