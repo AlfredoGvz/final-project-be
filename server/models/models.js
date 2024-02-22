@@ -1,5 +1,6 @@
 const client = require("../connection");
-const db = client.db("development");
+const ENV = process.env.NODE_ENV || "development";
+const db = client.db(ENV);
 client.connect();
 
 async function getCities() {
@@ -13,48 +14,46 @@ async function getCities() {
   }
 }
 
+async function getCityToilets(city_name) {
+  const cityName = city_name[0].toUpperCase() + city_name.slice(1);
 
-    async function getCityToilets(city_name) {
-    const cityName = city_name[0].toUpperCase() + city_name.slice(1);
-  
-    return new Promise(async (resolve, reject) => {
-      try {
-        const citiesCollection = await db.collection("cities");
-  
-        // Use aggregation pipeline to join cities and toilets
-        const pipeline = [
-          {
-            $match: {
-              name: cityName, // Filter documents to match only the city "Manchester"
-            },
+  return new Promise(async (resolve, reject) => {
+    try {
+      const citiesCollection = await db.collection("cities");
+
+      // Use aggregation pipeline to join cities and toilets
+      const pipeline = [
+        {
+          $match: {
+            name: cityName, // Filter documents to match only the city "Manchester"
           },
-          {
-            $lookup: {
-              from: "toilets",
-              localField: "name",
-              foreignField: "city",
-              as: "toilets",
-            },
+        },
+        {
+          $lookup: {
+            from: "toilets",
+            localField: "name",
+            foreignField: "city",
+            as: "toilets",
           },
-          {
-            $addFields: {
-              toilets: "$toilets", // Add a new field "toilets" containing the restrooms
-            },
+        },
+        {
+          $addFields: {
+            toilets: "$toilets", // Add a new field "toilets" containing the restrooms
           },
-        ];
-  
-        const cities = await citiesCollection.aggregate(pipeline).toArray();
-        if (cities.length === 0) {
-          reject(new Error("City not found in database"));
-        } else {
-          resolve(cities);
-        }
-      } finally {
-        await client.close();
+        },
+      ];
+
+      const cities = await citiesCollection.aggregate(pipeline).toArray();
+      if (cities.length === 0) {
+        reject(new Error("City not found in database"));
+      } else {
+        resolve(cities);
       }
-    });
-  }
-  
+    } finally {
+      await client.close();
+    }
+  });
+}
 
 module.exports = {
   getCities,
