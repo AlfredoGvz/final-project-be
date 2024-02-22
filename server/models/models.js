@@ -1,10 +1,9 @@
-const client = require("../connection");
-const ENV = process.env.NODE_ENV || "development";
-const db = client.db(ENV);
-client.connect();
+const { client, connectToMongoDB } = require("../connection");
 
 async function getCities() {
   try {
+    await connectToMongoDB();
+    const db = client.db("development");
     const data = await db.collection("cities").find().toArray();
     return data;
   } catch (error) {
@@ -19,6 +18,8 @@ async function getCityToilets(city_name) {
 
   return new Promise(async (resolve, reject) => {
     try {
+      await connectToMongoDB();
+      const db = client.db("development");
       const citiesCollection = await db.collection("cities");
 
       // Use aggregation pipeline to join cities and toilets
