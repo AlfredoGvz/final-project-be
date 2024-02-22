@@ -6,13 +6,14 @@ const Toilet = require('../data/schema/toilet-schema');
 async function seedTestData() {
   try {
     
-    const db = client.db();
-
-    await client.connect();
-    
-    await db.collection('testToilets').drop().then(() => {
+      const db = client.db();
+      
+      await client.connect();
+      
+      await db.collection('testToilets').drop().then(() => {
         console.log('db dropped');
-    })
+      })
+
     const formattedDataArray = jsonData.map(obj => ({
       refuge_id: obj.id,
       name: obj.name,

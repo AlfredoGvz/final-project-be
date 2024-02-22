@@ -1,21 +1,20 @@
 const app = require("../server/app");
 const request = require("supertest");
 const client = require("../server/connection");
-const seedTestData = require('../util-funcs/add-test-data')
-
-afterAll(() => {
-  return client.close();
-});
+const seedTestData = require('../util-funcs/seed-test-data')
 
 beforeEach(() => {
   return client.connect()
   .then(() => {
     console.log(`connected to : ${client.options.dbName}`);
   })
-  .then(() => {
-    seedTestData()
-  })
 })
+afterAll(() => {
+  return client.close();
+});
+beforeAll(() => {
+  seedTestData()
+  })
 
 describe("API FLUSHME", () => {
   describe("GET /api/cities", () => {
