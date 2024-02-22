@@ -1,10 +1,12 @@
-const client = require('../server/connection')
+const client = require("../server/connection");
+const cors = require("cors");
 const express = require("express");
 const app = express();
 const {
   fetchingCities,
   fetchingCityToilets,
 } = require("./controllers/controllers");
+app.use(cors());
 
 app.get("/api/cities", fetchingCities);
 app.get("/api/:city_name/toilets", fetchingCityToilets);
