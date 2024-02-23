@@ -58,15 +58,21 @@ async function getCityToilets(city_name) {
 
 async function updateCityToilets(toilet_id, inc_votes){
   try{
+    await connectToMongoDB();
     const db = client.db("development");
-    const data = await db.collection("toilets").findOneAndUpdate(
-      {toilet_id: toilet_id},
-      {$inc: { "votes" : + inc_votes }})
+    const data = await db.collection("cities").find().toArray();
+    // const data = await db.collection("toilets").findOneAndUpdate(
+    //   {_id: toilet_id},
+    //   {$inc: { "votes" : + inc_votes }})
+      console.log(data, "<<< the data in the model");
       return data
     }
   catch(err){
     console.log(err);
   }
+ finally {
+  await client.close();
+}
 }
 
 module.exports = {

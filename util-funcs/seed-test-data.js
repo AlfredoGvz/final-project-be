@@ -1,4 +1,4 @@
-const client = require('../server/connection');
+const { client, connectToMongoDB } = require('../server/connection');
 const fs = require('fs');
 const jsonData = require('../data/test-data/all-toilets.json');
 const Toilet = require('../data/schema/toilet-schema');
@@ -6,10 +6,11 @@ const Toilet = require('../data/schema/toilet-schema');
 async function seedTestData() {
   try {
     
-      const db = client.db();
-      
-      await client.connect();
-      
+    
+    await connectToMongoDB()
+    
+    const db = client.db();
+    
       await db.collection('testToilets').drop().then(() => {
         console.log('db dropped');
       })

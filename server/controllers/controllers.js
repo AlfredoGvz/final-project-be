@@ -1,4 +1,4 @@
-const { getCities, getCityToilets, updateCityToilets} = require("../models/models");
+const { getCities, getCityToilets, updateCityToilets } = require("../models/models");
 
 function fetchingCities(request, response, next) {
   getCities().then((data) => {
@@ -23,8 +23,11 @@ function fetchingCityToilets(request, response, next) {
     });
 }
 
-function patchingCityToilets (request, response, next) {
+function patchingCityToilets(request, response, next) {
+  const db = client.db("development");
+  db.collection("toilets")
   const {toilet_id } = request.params
+  console.log(toilet_id, 'im in the controller');
   const {inc_votes} = request.body
   updateCityToilets(toilet_id, inc_votes)
   .then((data) => {
@@ -34,5 +37,4 @@ function patchingCityToilets (request, response, next) {
 }
 
 
-
-module.exports = { fetchingCities, fetchingCityToilets, patchingCityToilets};
+module.exports = { fetchingCities, fetchingCityToilets, patchingCityToilets };
