@@ -11,7 +11,7 @@ app.get("/api/cities", fetchingCities);
 
 app.get("/api/:city_name/toilets", fetchingCityToilets); //add property comments number and rating number
 
-app.patch("/api/:city_name/toilets/:toiletId", patchingCityToilets);
+app.patch("/api/:city_name/toilets/:toiletId", patchingCityToilets)
 
 app.use((err, req, res, next) => {
   if (err.status === 404 && err.msg === "City not found") {

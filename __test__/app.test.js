@@ -3,17 +3,17 @@ const request = require("supertest");
 const { client, connectToMongoDB } = require("../server/connection");
 const seedTestData = require("../util-funcs/seed-test-data");
 
-beforeEach(() => {
-  return connectToMongoDB().then(() => {
-    console.log(`connected to : ${client.options.dbName}`);
-  });
+
+beforeAll(async () => {
+  await connectToMongoDB(); // Connect to the MongoDB server
+  console.log(`Connected to : ${client.options.dbName}`);
+  // await seedTestData(); // Seed test data
 });
-afterAll(() => {
-  return client.close();
+
+afterAll(async () => {
+  await client.close(); // Close the MongoDB connection
 });
-beforeAll(() => {
-  seedTestData();
-});
+
 
 describe("API FLUSHME", () => {
   describe("GET /api/cities", () => {
@@ -72,8 +72,7 @@ describe("API FLUSHME", () => {
       return request(app)
         .get("/api/manchester/toilets")
         .then(({ _body }) => {
-          const { cityToilets } = _body;
-          console.log(cityToilets);
+          const { cityToilets } = _body
           expect(cityToilets).toBeInstanceOf(Array);
           expect(cityToilets[0]).toEqual(
             expect.objectContaining({
@@ -98,6 +97,13 @@ describe("API FLUSHME", () => {
         });
     });
   });
-
-  test("jjhjhkj");
 });
+
+describe("PATCH /api/:city_name/toilets/:toiletId", () => {
+  test.only("201 Successful patch to the database", () => {
+    return request(app)
+      .patch(`/api/Manchester/toilets/65d872561c711aa554e78198`)
+      .send({ inc_votes : 1 })
+      .expect(201)
+      });
+  });
