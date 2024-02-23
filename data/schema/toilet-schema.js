@@ -13,5 +13,7 @@ const toiletSchema = new mongoose.Schema({
   latitude: Number,
   longitude: Number,
   distance: Number,
+  votes: Number,
+  comment_count: Number,
 });
 module.exports = mongoose.model("Toilet", toiletSchema);

@@ -3,14 +3,14 @@ const fs = require('fs');
 const jsonData = require('../data/test-data/all-toilets.json');
 const Toilet = require('../data/schema/toilet-schema');
 
-async function seedTestData() {
+async function seedDevData() {
   try {
     
       const db = client.db();
       
       await client.connect();
       
-      await db.collection('testToilets').drop().then(() => {
+      await db.collection('toilets').drop().then(() => {
         console.log('db dropped');
       })
 
@@ -31,7 +31,7 @@ async function seedTestData() {
       comment_count: 0,
     }));
 
-    const result = await db.collection('testToilets').insertMany(formattedDataArray);
+    const result = await db.collection('toilets').insertMany(formattedDataArray);
     console.log(`${result.insertedCount} toilets inserted successfully.`);
     
     await client.close();
@@ -41,6 +41,6 @@ async function seedTestData() {
 }
 
 
-module.exports = seedTestData
+module.exports = seedDevData
 
 
