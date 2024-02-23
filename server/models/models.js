@@ -56,7 +56,21 @@ async function getCityToilets(city_name) {
   });
 }
 
+async function updateCityToilets(toilet_id, inc_votes){
+  try{
+    const db = client.db("development");
+    const data = await db.collection("toilets").findOneAndUpdate(
+      {toilet_id: toilet_id},
+      {$inc: { "votes" : + inc_votes }})
+      return data
+    }
+  catch(err){
+    console.log(err);
+  }
+}
+
 module.exports = {
   getCities,
   getCityToilets,
+  updateCityToilets
 };
