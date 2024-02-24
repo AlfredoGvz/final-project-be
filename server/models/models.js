@@ -1,6 +1,5 @@
-const { client, connectToMongoDB, ENV } = require("../connection");
+const { client, connectToMongoDB } = require("../connection");
 const { ObjectId } = require("mongodb");
-console.log(ENV, "<<<< the current ENV from models");
 
 async function getCities() {
   try {
