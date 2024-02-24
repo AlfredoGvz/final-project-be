@@ -1,4 +1,6 @@
-const { client, connectToMongoDB } = require("../connection");
+const { client, connectToMongoDB, ENV } = require("../connection");
+const { ObjectId } = require("mongodb");
+console.log(ENV, "<<<< the current ENV from models");
 
 async function getCities() {
   try {
@@ -56,27 +58,30 @@ async function getCityToilets(city_name) {
   });
 }
 
-async function updateCityToilets(toilet_id, inc_votes){
-  try{
+async function updateCityToilets(toilet_id, inc_vote) {
+  //1- To update a document, use findOneAndUpdate passing item id, value to update and the returnDocument instruct to be return the updated object
+
+  //2- To be able to find item by id in params, we gonna need to create an instance of ObjectId by using new ObjectId and passing in the id in the params.
+  try {
     await connectToMongoDB();
     const db = client.db("development");
-    const data = await db.collection("cities").find().toArray();
-    // const data = await db.collection("toilets").findOneAndUpdate(
-    //   {_id: toilet_id},
-    //   {$inc: { "votes" : + inc_votes }})
-      console.log(data, "<<< the data in the model");
-      return data
-    }
-  catch(err){
-    console.log(err);
-  }
- finally {
-  await client.close();
-}
-}
+    const toiletsCollection = db.collection("toilets");
+    const itemId = { _id: new ObjectId(toilet_id) };
+    const update = { $set: { votes: inc_vote } };
 
+    const result = await toiletsCollection.findOneAndUpdate(itemId, update, {
+      returnDocument: "after",
+    });
+
+    return result;
+  } catch (error) {
+    console.log(error, " i am a mistake");
+  } finally {
+    client.close();
+  }
+}
 module.exports = {
   getCities,
   getCityToilets,
-  updateCityToilets
+  updateCityToilets,
 };
