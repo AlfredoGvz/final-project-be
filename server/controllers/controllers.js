@@ -1,4 +1,8 @@
-const { getCities, getCityToilets, updateCityToilets } = require("../models/models");
+const {
+  getCities,
+  getCityToilets,
+  updateCityToilets,
+} = require("../models/models");
 
 function fetchingCities(request, response, next) {
   getCities().then((data) => {
@@ -13,28 +17,25 @@ function fetchingCityToilets(request, response, next) {
       response.status(200).send({ cityToilets: data });
     })
     .catch((err) => {
-      if(err.message === "City not found in database") {
-        response.status(404).send({message: 'City not found in database'})
+      if (err.message === "City not found in database") {
+        response.status(404).send({ message: "City not found in database" });
+      } else {
+        response.status(500).send({ message: "Internal server error" });
       }
-      else {
-        response.status(500).send({message: 'Internal server error'})
-      }
-
     });
 }
 
 function patchingCityToilets(request, response, next) {
-  const db = client.db("development");
-  db.collection("toilets")
-  const {toilet_id } = request.params
-  console.log(toilet_id, 'im in the controller');
-  const {inc_votes} = request.body
-  updateCityToilets(toilet_id, inc_votes)
-  .then((data) => {
-    console.log(data, '<<< in the controller for patch');
-    response.status(201)
-  })
+  const { toilet_id } = request.params;
+  const { inc_votes } = request.body;
+
+  updateCityToilets(toilet_id, inc_votes).then((data) => {
+    console.log(data, "from controller yey");
+    response.status(201).send({ data: data });
+  });
 }
-
-
-module.exports = { fetchingCities, fetchingCityToilets, patchingCityToilets };
+module.exports = {
+  fetchingCities,
+  fetchingCityToilets,
+  patchingCityToilets,
+};

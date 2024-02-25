@@ -66,7 +66,7 @@ async function updateCityToilets(toilet_id, inc_vote) {
     const db = client.db("development");
     const toiletsCollection = db.collection("toilets");
     const itemId = { _id: new ObjectId(toilet_id) };
-    const update = { $set: { votes: inc_vote } };
+    const update = { $inc: { votes: inc_vote } };
 
     const result = await toiletsCollection.findOneAndUpdate(itemId, update, {
       returnDocument: "after",

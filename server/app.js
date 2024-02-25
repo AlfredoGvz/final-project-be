@@ -1,17 +1,20 @@
-const client = require("../server/connection");
 const express = require("express");
 const app = express();
+app.use(express.json());
 const {
   fetchingCities,
   fetchingCityToilets,
   patchingCityToilets,
+  // patchingCityToilets,
 } = require("./controllers/controllers");
 
 app.get("/api/cities", fetchingCities);
 
 app.get("/api/:city_name/toilets", fetchingCityToilets); //add property comments number and rating number
 
-app.patch("/api/:city_name/toilets/:toiletId", patchingCityToilets)
+// app.get("/api/toilets/:toilet_id", patchingCityToilets);
+
+app.patch("/api/toilets/:toilet_id", patchingCityToilets);
 
 app.use((err, req, res, next) => {
   if (err.status === 404 && err.msg === "City not found") {
