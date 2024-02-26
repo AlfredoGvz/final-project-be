@@ -1,0 +1,52 @@
+[
+  {
+    "cityName": "Manchester",
+    "lat": "53.4794892",
+    "lon": "-2.2451148"
+  },
+  {
+    "cityName": "Liverpool",
+    "lat": "53.4071991",
+    "lon": "-2.99168"
+  },
+  {
+    "cityName": "Leeds",
+    "lat": "53.7974185",
+    "lon": "-1.5437941"
+  },
+  {
+    "cityName": "Coventry",
+    "lat": "52.4081812",
+    "lon": "-1.510477"
+  },
+  {
+    "cityName": "Cardiff",
+    "lat": "51.4816546",
+    "lon": "-3.1791934"
+  },
+  {
+    "cityName": "Bristol",
+    "lat": "51.4538022",
+    "lon": "-2.5972985"
+  },
+  {
+    "cityName": "Sheffield",
+    "lat": "53.3806626",
+    "lon": "-1.4702278"
+  },
+  {
+    "cityName": "York",
+    "lat": "53.9590555",
+    "lon": "-1.0815361"
+  },
+  {
+    "cityName": "Belfast",
+    "lat": "54.596391",
+    "lon": "-5.9301829"
+  },
+  {
+    "cityName": "Glasgow",
+    "lat": "55.861155",
+    "lon": "-4.2501687"
+  }
+]

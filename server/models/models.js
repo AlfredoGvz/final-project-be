@@ -1,5 +1,10 @@
-const { client, connectToMongoDB } = require("../connection");
+const { client, connectToMongoDB, ENV } = require("../connection");
 const { ObjectId } = require("mongodb");
+
+// console.log(ENV, 'im in the model')
+
+// if (ENV === development )
+// {const db = client.db("development");}
 
 async function getCities() {
   try {
