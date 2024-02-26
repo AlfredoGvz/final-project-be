@@ -1,18 +1,15 @@
-const client = require('../server/connection');
-const fs = require('fs');
-const jsonData = require('../data/test-data/all-toilets.json');
-const Toilet = require('../data/schema/toilet-schema');
+const { client, connectToMongoDB, ENV } = require("../server/connection");
+const jsonData = require('../data/test-data/toilets.json');
 
 async function seedDevData() {
   try {
     
-      const db = client.db();
-      
-      await client.connect();
-      
-      await db.collection('toilets').drop().then(() => {
-        console.log('db dropped');
-      })
+    await connectToMongoDB()
+    const db = client.db("development");
+
+    await db.collection('toilets').drop().then(() => {
+      console.log('db dropped');
+    })
 
     const formattedDataArray = jsonData.map(obj => ({
       refuge_id: obj.id,
@@ -39,7 +36,7 @@ async function seedDevData() {
     console.error('Error:', error.message);
   }
 }
-
+seedDevData()
 
 module.exports = seedDevData
 

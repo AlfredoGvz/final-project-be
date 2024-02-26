@@ -1,20 +1,16 @@
-const { client, connectToMongoDB } = require('../server/connection');
-const fs = require('fs');
-const jsonData = require('../data/test-data/all-toilets.json');
-const Toilet = require('../data/schema/toilet-schema');
+const jsonData = require('../data/test-data/toilets.json');
+const { client, connectToMongoDB, ENV } = require("../server/connection");
 
 async function seedTestData() {
   try {
     
-    
     await connectToMongoDB()
-    
-    const db = client.db();
-    
-      await db.collection('testToilets').drop().then(() => {
-        console.log('db dropped');
-      })
+    const db = client.db("testDatabase");
 
+    await db.collection('testToilets').drop().then(() => {
+      console.log('db dropped');
+    })
+    
     const formattedDataArray = jsonData.map(obj => ({
       refuge_id: obj.id,
       name: obj.name,
@@ -40,7 +36,7 @@ async function seedTestData() {
     console.error('Error:', error.message);
   }
 }
-
+seedTestData()
 
 module.exports = seedTestData
 
