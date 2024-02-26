@@ -14,41 +14,40 @@ async function getCities() {
   }
 }
 
-async function getCityToilets(city_name) {
+async function getCityToilets(city_name, queries) {
+  console.log(queries);
   const cityName = city_name[0].toUpperCase() + city_name.slice(1);
+  const acceptedQueries = ["unisex", "changing_table", "accessible", "none"];
+  const toiletFilterCriteria = {
+    city: cityName,
+  };
+  const sortingByValuesInQuery = Object.keys(queries);
+  if (
+    queries &&
+    !sortingByValuesInQuery.every((value) => acceptedQueries.includes(value))
+  ) {
+    return Promise.reject(new Error("Invalid filter criteria"));
+  } else {
+    for (const val of sortingByValuesInQuery) {
+      toiletFilterCriteria[val] = queries[val] === "true";
+    }
+  }
+  console.log(toiletFilterCriteria);
+
+  await connectToMongoDB();
+  const db = client.db("development");
+  const toiletsCollection = db.collection("toilets");
+  const toilet = await toiletsCollection.find(toiletFilterCriteria).toArray();
+  const cityCollection = db.collection("cities");
+  const city = await cityCollection.find({ name: cityName }).toArray();
 
   return new Promise(async (resolve, reject) => {
     try {
-      await connectToMongoDB();
-      const db = client.db("development");
-      const citiesCollection = await db.collection("cities");
-
-      // Use aggregation pipeline to join cities and toilets
-      const pipeline = [
-        {
-          $match: {
-            name: cityName, // Filter documents to match only the city "Manchester"
-          },
-        },
-        {
-          $lookup: {
-            from: "toilets",
-            localField: "name",
-            foreignField: "city",
-            as: "toilets",
-          },
-        },
-        {
-          $addFields: {
-            toilets: "$toilets", // Add a new field "toilets" containing the restrooms
-          },
-        },
-      ];
-
-      const cities = await citiesCollection.aggregate(pipeline).toArray();
-      if (cities.length === 0) {
+      if (city.length === 0) {
         reject(new Error("City not found in database"));
       } else {
+        city[0].toilets = toilet;
+        const cities = city;
         resolve(cities);
       }
     } finally {
