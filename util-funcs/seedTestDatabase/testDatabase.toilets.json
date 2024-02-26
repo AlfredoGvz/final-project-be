@@ -1,0 +1,4389 @@
+[{
+  "_id": {
+    "$oid": "65dc9862030140170e867ee7"
+  },
+  "refuge_id": 21914,
+  "name": "The Filthy Cow",
+  "street": "Tib Lane",
+  "city": "Salford",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Just ask the staff and there happy to let you use the restrooms ",
+  "latitude": 53.480474,
+  "longitude": -2.2442861,
+  "distance": 0.07609807583928015,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867ee8"
+  },
+  "refuge_id": 21913,
+  "name": "The Filthy Cow",
+  "street": "Tib Lane",
+  "city": "Salford",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Just ask the staff and there happy to let you use the restrooms ",
+  "latitude": 53.480474,
+  "longitude": -2.2442861,
+  "distance": 0.07609807583928015,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867ef0"
+  },
+  "refuge_id": 62030,
+  "name": "Richmond Tea Rooms",
+  "street": "Sackville Street",
+  "city": "Manchester ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Assume just for customers, but is an lgbt run business, so may accommodate ",
+  "latitude": 53.478118,
+  "longitude": -2.2391322,
+  "distance": 0.26361066569431163,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867ef3"
+  },
+  "refuge_id": 42549,
+  "name": "Ban Di Bul",
+  "street": "Princess street ",
+  "city": "Manchester ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "It is an accesible toilet but there is a short set of stairs at the entrance of the restaurant. Need to be a paying costumer. ",
+  "latitude": 53.47681439999999,
+  "longitude": -2.2394145,
+  "distance": 0.2984882558992503,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867ef7"
+  },
+  "refuge_id": 62300,
+  "name": "The Vurger Co",
+  "street": "11 Tib Street",
+  "city": "Manchester ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.4822169,
+  "longitude": -2.2377831,
+  "distance": 0.3555211822513651,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867efc"
+  },
+  "refuge_id": 53605,
+  "name": "Afflecks Arcade, 35-39 Oldham St, Manchester M1 1JG, UK",
+  "street": "Afflecks Arcade",
+  "city": "Greater Manchester",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.482231,
+  "longitude": -2.2364073,
+  "distance": 0.40505472353781874,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867eff"
+  },
+  "refuge_id": 4182,
+  "name": "Barburrito Liverpool 1",
+  "street": "Liverpool 1 shopping area",
+  "city": "Liverpool",
+  "country": "UK",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": null,
+  "latitude": 53.4083714,
+  "longitude": -2.9915726,
+  "distance": 0.08111880563522755,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f00"
+  },
+  "refuge_id": 52624,
+  "name": "Moose coffee",
+  "street": "Dale st",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.4085796,
+  "longitude": -2.9871158,
+  "distance": 0.21080203656896734,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f01"
+  },
+  "refuge_id": 21364,
+  "name": "Five guys",
+  "street": "2 Queen Square",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.407979,
+  "longitude": -2.983797,
+  "distance": 0.32912470715655956,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f02"
+  },
+  "refuge_id": 21048,
+  "name": "Barburrito",
+  "street": "Paradise Street",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "If it's busy enough they won't notice you walk through!",
+  "latitude": 53.403136,
+  "longitude": -2.9860631,
+  "distance": 0.3637842357516775,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f03"
+  },
+  "refuge_id": 43864,
+  "name": "The Playhouse",
+  "street": "Williamson Square",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.40665449999999,
+  "longitude": -2.9827195,
+  "distance": 0.3709823487166584,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f04"
+  },
+  "refuge_id": 48199,
+  "name": "Turtle Bay",
+  "street": "Hanover Street",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.4034462,
+  "longitude": -2.9837977,
+  "distance": 0.4155099976239396,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f05"
+  },
+  "refuge_id": 56521,
+  "name": "Turtle Bay",
+  "street": "Hanover Street",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "you would have to be a paying customer, but i’m sure they’d let you go if u really needed to.",
+  "latitude": 53.4034462,
+  "longitude": -2.9837977,
+  "distance": 0.4155099976239396,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f06"
+  },
+  "refuge_id": 55125,
+  "name": "Merseymade",
+  "street": "98 Paradise St",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "Open to the public 7 days a week.",
+  "latitude": 53.40205176828745,
+  "longitude": -2.986294504426722,
+  "distance": 0.41915843993666957,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f07"
+  },
+  "refuge_id": 62822,
+  "name": "Jem",
+  "street": "59 Hanover Street",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.4038724,
+  "longitude": -2.9831462,
+  "distance": 0.4199862058354437,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f08"
+  },
+  "refuge_id": 62887,
+  "name": "Turtle Bay",
+  "street": "59 Hanover Street",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.4038724,
+  "longitude": -2.9831462,
+  "distance": 0.4199862058354437,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f09"
+  },
+  "refuge_id": 43687,
+  "name": "St Georges Hall Heritage Centre",
+  "street": "St Georges Place",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.4077023,
+  "longitude": -2.9802239,
+  "distance": 0.4731323860614188,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f0a"
+  },
+  "refuge_id": 46697,
+  "name": "Bold Street Coffee",
+  "street": "Bold Street ",
+  "city": "Liverpool ",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "2 toilet stalls marked female, 1 toilet stall marked male and a stall with a urinal marked male. ",
+  "latitude": 53.4032896,
+  "longitude": -2.9786913,
+  "distance": 0.5993296274677065,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f0b"
+  },
+  "refuge_id": 67192,
+  "name": "Taco bell ",
+  "street": "Bold street ",
+  "city": "Liverpool ",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.4032896,
+  "longitude": -2.9786913,
+  "distance": 0.5993296274677065,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f0c"
+  },
+  "refuge_id": 25819,
+  "name": "Chy restaurant",
+  "street": "Renshaw Street",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.4036624,
+  "longitude": -2.9768682,
+  "distance": 0.6572144148081825,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f0d"
+  },
+  "refuge_id": 28276,
+  "name": "University of Liverpool Guild of Students",
+  "street": "Brownlow Hill",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.4057565,
+  "longitude": -2.9697523,
+  "distance": 0.9086608852163961,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f0e"
+  },
+  "refuge_id": 22866,
+  "name": "Liverpool Guild of Students",
+  "street": "160 Mount Pleasant",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.4052223,
+  "longitude": -2.9660877,
+  "distance": 1.0629367538318726,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f0f"
+  },
+  "refuge_id": 15965,
+  "name": "Liverpool Guild Sphinx Bar",
+  "street": "160 Mount Pleasant",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Should be able to use regardless, many students go in and out without paying for anything",
+  "latitude": 53.4050214,
+  "longitude": -2.9658354,
+  "distance": 1.075100618056547,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f10"
+  },
+  "refuge_id": 16078,
+  "name": "Liverpool Guild",
+  "street": "160 Mount Pleasant",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "You do not have to be a paying customer to use these toilets - anybody can wander in and out. The Guild is open from 7am til 11pm every normal day.",
+  "latitude": 53.4050214,
+  "longitude": -2.9658354,
+  "distance": 1.075100618056547,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f11"
+  },
+  "refuge_id": 65262,
+  "name": "The Caledonia",
+  "street": "The Caledonia",
+  "city": "Merseyside",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.4003667,
+  "longitude": -2.9680146,
+  "distance": 1.0831038521919778,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f12"
+  },
+  "refuge_id": 21052,
+  "name": "Starbucks",
+  "street": "Myrtle Street",
+  "city": "Liverpool",
+  "country": "US",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.4008954,
+  "longitude": -2.9653891,
+  "distance": 1.1672571456743648,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f13"
+  },
+  "refuge_id": 21050,
+  "name": "Caffe Nero",
+  "street": "Myrtle Street",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Easy to sneak in unnoticed and friendly staff",
+  "latitude": 53.4008954,
+  "longitude": -2.9653891,
+  "distance": 1.1672571456743648,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f14"
+  },
+  "refuge_id": 21051,
+  "name": "Caffe Nero",
+  "street": "Myrtle Street",
+  "city": "Liverpool",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Easy to walk in unnoticed and friendly staff ",
+  "latitude": 53.4008954,
+  "longitude": -2.9653891,
+  "distance": 1.1672571456743648,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f15"
+  },
+  "refuge_id": 35921,
+  "name": "Claus Donner Arztpraxis (doctor's office) ",
+  "street": "Birkenhead 1A",
+  "city": "Jembke",
+  "country": "DE",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.38999099999999,
+  "longitude": -3.023009,
+  "distance": 1.7548229743602992,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f16"
+  },
+  "refuge_id": 46737,
+  "name": "Subway",
+  "street": "256 grange road",
+  "city": "Birkenhead ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.38927380000001,
+  "longitude": -3.0300599,
+  "distance": 2.008458400850753,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f17"
+  },
+  "refuge_id": 47684,
+  "name": "Cherry Tree Shopping Centre",
+  "street": "Cherry Square",
+  "city": "Liscard",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.4190845,
+  "longitude": -3.0451213,
+  "distance": 2.349059654238598,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f18"
+  },
+  "refuge_id": 24023,
+  "name": "Itsu",
+  "street": "Trinity Street",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Customer toilet",
+  "latitude": 53.797213,
+  "longitude": -1.5437942,
+  "distance": 0.014198678691779803,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f19"
+  },
+  "refuge_id": 19856,
+  "name": "MEATLiquor",
+  "street": "Trinity Leeds Bank Street Behind Victoria’s Secret | Leeds | LS1 5AT",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Felt incredibly comfortable using the restroom here, all toilets are individual 'rooms' with male and female signs on the front, really impressed such a small establishment had gender neutral toilets, plus the food is pretty damn good too!",
+  "latitude": 53.79680639999999,
+  "longitude": -1.5443237,
+  "distance": 0.04749452136392735,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f1a"
+  },
+  "refuge_id": 33896,
+  "name": "Starbucks",
+  "street": "48 Albion St",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.7974615,
+  "longitude": -1.5449641,
+  "distance": 0.04783934292147678,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f1b"
+  },
+  "refuge_id": 59867,
+  "name": "Pizza Punks",
+  "street": "Albion street",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "They are a restaurant but very relaxed so will let you in",
+  "latitude": 53.7983218,
+  "longitude": -1.5450599,
+  "distance": 0.0810160535371787,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f1c"
+  },
+  "refuge_id": 56160,
+  "name": "Waterstones",
+  "street": "Albion Street ",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.7983218,
+  "longitude": -1.5450599,
+  "distance": 0.0810160535371787,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f1d"
+  },
+  "refuge_id": 32044,
+  "name": "200 Degrees café ",
+  "street": "31 bond Street ",
+  "city": "Leeds ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.7975895,
+  "longitude": -1.5461697,
+  "distance": 0.09766395768020988,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f1e"
+  },
+  "refuge_id": 58822,
+  "name": "Flamingos Coffee House",
+  "street": "Leeds Central Arcade ",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "LGBT+ coffee house, super friendly and has a whole accessibility document on their website ",
+  "latitude": 53.7964919,
+  "longitude": -1.5418349,
+  "distance": 0.10242828965364208,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f1f"
+  },
+  "refuge_id": 58493,
+  "name": "Flamingos Coffee House",
+  "street": "Central Arcade",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Single large non-gendered cubicle in the back of Leeds’ only LGBTQ+ Coffee House",
+  "latitude": 53.7964919,
+  "longitude": -1.5418349,
+  "distance": 0.10242828965364208,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f20"
+  },
+  "refuge_id": 56157,
+  "name": "Global Tribe Crystals",
+  "street": "18 Swan St",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": false,
+  "comment": "It’s polite to be a paying customer, but the staff are very lovely so probably wouldn’t mind you using the bathroom anyway :) ",
+  "latitude": 53.7989501,
+  "longitude": -1.5431466,
+  "distance": 0.10907238806091338,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f21"
+  },
+  "refuge_id": 34150,
+  "name": "Costa Coffee",
+  "street": "2 Bond Court, Leeds LS1 2JY",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.797742,
+  "longitude": -1.546414,
+  "distance": 0.10922760464044769,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f22"
+  },
+  "refuge_id": 34167,
+  "name": "Caffé Nero",
+  "street": "58 Boar Lane",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Customer toilet - If you access it via the Albion Street side door, you don't have to go past the counter and it's on the left.",
+  "latitude": 53.7959435,
+  "longitude": -1.5448281,
+  "distance": 0.11030336950938965,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f23"
+  },
+  "refuge_id": 28981,
+  "name": "The light",
+  "street": "The Headrow ",
+  "city": "Leeds ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Toilet is only accessible by radar key. You can purchase one on amazon for about £4. Come in handy for a lot of disabled toilets. Great for a safe place!!!",
+  "latitude": 53.7994101,
+  "longitude": -1.545003,
+  "distance": 0.14618229085701406,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f24"
+  },
+  "refuge_id": 59674,
+  "name": "House of Fu",
+  "street": "The Headrow",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.7994227,
+  "longitude": -1.5450182,
+  "distance": 0.14721141009289923,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f25"
+  },
+  "refuge_id": 64638,
+  "name": "Cafe Nero",
+  "street": "The headrow",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Probably need to buy a drink",
+  "latitude": 53.7994448,
+  "longitude": -1.5450457,
+  "distance": 0.14902954708451982,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f26"
+  },
+  "refuge_id": 65882,
+  "name": "Döner Summer",
+  "street": "10-12 call lane ",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.7964758,
+  "longitude": -1.5401068,
+  "distance": 0.16397006854047486,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f27"
+  },
+  "refuge_id": 21722,
+  "name": "The cosmopolitan hotel",
+  "street": "Lower briggate ",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.7951442,
+  "longitude": -1.5424923,
+  "distance": 0.16587688857663357,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f28"
+  },
+  "refuge_id": 56673,
+  "name": "Viaduct",
+  "street": "Lower Briggate",
+  "city": "Leeds ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.7951442,
+  "longitude": -1.5424923,
+  "distance": 0.16587688857663357,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f29"
+  },
+  "refuge_id": 32245,
+  "name": "Everyman Cinema, Level 4 Trinity ",
+  "street": "Albion Street",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "It's usually quite busy, so you'll likely go unnoticed for using the bathroom only. There's a balcony near the bathrooms, so it could look like you're going there. People go to eat the pizza as well as for the cinema, and people often go to the bathroom before eating. ",
+  "latitude": 53.7999158,
+  "longitude": -1.5448894,
+  "distance": 0.17824204323724457,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f2a"
+  },
+  "refuge_id": 17848,
+  "name": "Kada's ",
+  "street": "5 Crown Street ",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Independant persian cafe, so need to be a paying customer.  Not sure on the owners attitudes but if your looking for a gender neutral toilet its convient for leeds and is their only toilet.  Do a nice persian tea, food and sell shisha.",
+  "latitude": 53.7954057,
+  "longitude": -1.5400304,
+  "distance": 0.20720311826553248,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f2b"
+  },
+  "refuge_id": 27939,
+  "name": "Costa Coffee",
+  "street": "Merrion Street",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "You probably have to be a 'paying customer' but I've used this so many times without buying and they don't mind at all.",
+  "latitude": 53.8006158,
+  "longitude": -1.5419659,
+  "distance": 0.2331695656169865,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f2c"
+  },
+  "refuge_id": 56156,
+  "name": "Henry Moore Institute ",
+  "street": "74 The Headrow",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "This is a free public bathroom.\r\nGenerally open 10am-5pm ",
+  "latitude": 53.8000775,
+  "longitude": -1.5475421,
+  "distance": 0.23905246193209567,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f2d"
+  },
+  "refuge_id": 56159,
+  "name": "Wharf Chambers",
+  "street": "23-25 Wharf Street",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Generally open after 5pm weekdays, 3pm on  weekends",
+  "latitude": 53.7954888,
+  "longitude": -1.5379759,
+  "distance": 0.2723156724669266,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f2e"
+  },
+  "refuge_id": 52947,
+  "name": "Almost Famous",
+  "street": "Alexander Court, Great George St",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.80066559999999,
+  "longitude": -1.5479854,
+  "distance": 0.2821138120963655,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f2f"
+  },
+  "refuge_id": 17795,
+  "name": "Wharf Chambers",
+  "street": "Wharf Street",
+  "city": "Leeds",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "You need to be a member (you can sign up online and it costs 1 pound) or the guest of a member to attend events.",
+  "latitude": 53.7951449,
+  "longitude": -1.5379666,
+  "distance": 0.28502174467317354,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f30"
+  },
+  "refuge_id": 32342,
+  "name": "Leeds City Museum",
+  "street": "Millennium Square ",
+  "city": "Leeds LS2 8BH",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Lower ground floor toilets are not unisex. Entry is free. ",
+  "latitude": 53.80114349999999,
+  "longitude": -1.5478826,
+  "distance": 0.30671956870132755,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f31"
+  },
+  "refuge_id": 51126,
+  "name": "Cafe Bravo",
+  "street": "Earlsdon High Street",
+  "city": "Coventry",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": false,
+  "comment": "Paying customers toilet",
+  "latitude": 52.4072289,
+  "longitude": -1.5086313,
+  "distance": 0.10188945825334826,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f32"
+  },
+  "refuge_id": 67761,
+  "name": "Coventry Cathedral ",
+  "street": "St Michael's Ave",
+  "city": "Coventry ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "Friendly and welcoming staff. There is no charge to enter the cathedral. Stay to admire the amazing artwork, architecture and stained glass.",
+  "latitude": 52.4081842,
+  "longitude": -1.5074651,
+  "distance": 0.12694916146224652,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f33"
+  },
+  "refuge_id": 3474,
+  "name": "Herbert Art Gallery & Museum ",
+  "street": "Jordan Well",
+  "city": "Coventry",
+  "country": "UK",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Museum is free, but awesome, so have a look round if you've got the time!\r\r",
+  "latitude": 52.40682,
+  "longitude": -1.50516,
+  "distance": 0.24304497443503065,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f34"
+  },
+  "refuge_id": 26348,
+  "name": "Herbert Art Gallery and Museum",
+  "street": "Jordan Well",
+  "city": "Coventry",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 52.40679979999999,
+  "longitude": -1.5046825,
+  "distance": 0.2622242714186599,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f35"
+  },
+  "refuge_id": 16674,
+  "name": "The quids Inn",
+  "street": "120 gosford street",
+  "city": "coventry ",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Never very clean, but is safe.",
+  "latitude": 52.40670470000001,
+  "longitude": -1.503541,
+  "distance": 0.3096395085521448,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f36"
+  },
+  "refuge_id": 47963,
+  "name": "Alison Gingell Building ",
+  "street": "Whitefriars Lane",
+  "city": "Coventry",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "University building with public access ",
+  "latitude": 52.4055656,
+  "longitude": -1.5027985,
+  "distance": 0.37068904423230215,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f37"
+  },
+  "refuge_id": 22521,
+  "name": "Quinton park medical centre",
+  "street": "51 Quinton Park",
+  "city": "Coventry",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 52.39126109999999,
+  "longitude": -1.5038458,
+  "distance": 1.2020254034092723,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f38"
+  },
+  "refuge_id": 65031,
+  "name": "Sebastian",
+  "street": "Coombe st",
+  "city": "Coventry ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 52.4051077,
+  "longitude": -1.478382,
+  "distance": 1.3693897365771714,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f39"
+  },
+  "refuge_id": 65032,
+  "name": "Sebastian mccutcheon",
+  "street": "Coombe st 19",
+  "city": "Coventry",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 52.4047188,
+  "longitude": -1.4782194,
+  "distance": 1.3805685458797041,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f3a"
+  },
+  "refuge_id": 51128,
+  "name": "Costa Coffee",
+  "street": "Gallagher Retail Park",
+  "city": "Coventry",
+  "country": "",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Customer toilet",
+  "latitude": 52.430192,
+  "longitude": -1.4898382,
+  "distance": 1.7519110583683948,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f3b"
+  },
+  "refuge_id": 62001,
+  "name": "Warwick University Sports and Wellness Hub ",
+  "street": "Leighfield Rd",
+  "city": "Coventry ",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "You do not need to be a paying customer.\r\n\r\nPostcode: CV4 7EU",
+  "latitude": 52.3761998,
+  "longitude": -1.5640983,
+  "distance": 3.161407405448136,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f3c"
+  },
+  "refuge_id": 53179,
+  "name": "9 Kenilworth Rd, Leamington Spa CV32 5TJ, UK",
+  "street": "9 Kenilworth Rd",
+  "city": "Warwickshire",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 52.3612532,
+  "longitude": -1.5619296,
+  "distance": 3.901463847112982,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f3d"
+  },
+  "refuge_id": 39414,
+  "name": "1 The Square, Kenilworth CV8 1EF, UK",
+  "street": "1 The Square",
+  "city": "Kenilworth",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 52.343596341137165,
+  "longitude": -1.5800677053645067,
+  "distance": 5.341258781551135,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f3e"
+  },
+  "refuge_id": 33193,
+  "name": "Balsall Common Library ",
+  "street": "283 Kenilworth Rd, Balsall Library",
+  "city": "Coventry",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "You can just walk in and use the toilet but feel free to browse through all the books ",
+  "latitude": 52.39244890000001,
+  "longitude": -1.6504126,
+  "distance": 5.998525789179171,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f3f"
+  },
+  "refuge_id": 29933,
+  "name": "Costa Coffee - Balsall Common ",
+  "street": "2 Station Road Balsall Common",
+  "city": "Coventry",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "I'm not sure but you may have to be a paying customer, there are small snacks or bottled drinks if you have to buy something ",
+  "latitude": 52.3869572,
+  "longitude": -1.6603453,
+  "distance": 6.486280530882214,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f40"
+  },
+  "refuge_id": 66959,
+  "name": "M&S Simply Food",
+  "street": "Southbound Service Area, Warwick Bypass",
+  "city": "Warwick",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "Bin for medical swabs etc. Not sharps. ",
+  "latitude": 52.3173818,
+  "longitude": -1.5696623,
+  "distance": 6.752358416072413,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f41"
+  },
+  "refuge_id": 50002,
+  "name": "The Time Resturant",
+  "street": "Market Place",
+  "city": "Nuneaton",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "",
+  "latitude": 52.52277059999999,
+  "longitude": -1.4675719,
+  "distance": 8.120744277992799,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f42"
+  },
+  "refuge_id": 52453,
+  "name": "Warwickshire College, Royal Leamington Spa, Leamington Spa CV32 5JW, UK",
+  "street": "Warwickshire College",
+  "city": "Warwickshire",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "Have to be a student or at least get a visitor lanyard",
+  "latitude": 52.2880978,
+  "longitude": -1.5492581,
+  "distance": 8.456874172512347,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f43"
+  },
+  "refuge_id": 42651,
+  "name": "Home",
+  "street": "13 Wentworth Rd",
+  "city": "Rugby",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 52.3638089,
+  "longitude": -1.2682844,
+  "distance": 10.663562702506274,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f44"
+  },
+  "refuge_id": 51495,
+  "name": "The Lawrence sheriff ",
+  "street": "28-29 high street",
+  "city": "Rugby",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "",
+  "latitude": 52.37107659999999,
+  "longitude": -1.2631901,
+  "distance": 10.737839348783156,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f45"
+  },
+  "refuge_id": 43254,
+  "name": "Sam's house",
+  "street": "Church St",
+  "city": "Rugby",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 52.3726101,
+  "longitude": -1.2613621,
+  "distance": 10.78789856013372,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f46"
+  },
+  "refuge_id": 29409,
+  "name": "Rugby College",
+  "street": "Technology Drive",
+  "city": "Rugby",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Students only",
+  "latitude": 52.3829332,
+  "longitude": -1.2559837,
+  "distance": 10.870622547696861,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f47"
+  },
+  "refuge_id": 67995,
+  "name": "Costa coffe",
+  "street": "Unit B2a, 9 the cresent",
+  "city": "Hinckley",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "You will have to buy something",
+  "latitude": 52.547115,
+  "longitude": -1.3827692,
+  "distance": 11.001426088925978,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f48"
+  },
+  "refuge_id": 36906,
+  "name": "Starbucks",
+  "street": "1, Touchwood Court, 12 High St, Solihull B91 3TB",
+  "city": "Solihull, Birmingham",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Single stalls Male, Female, Disabled, Gender Neutral. If unlocked ask at the till. May need to purchase something.",
+  "latitude": 52.413788,
+  "longitude": -1.779459,
+  "distance": 11.343250031580089,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f49"
+  },
+  "refuge_id": 36905,
+  "name": "Starbucks",
+  "street": "1, Touchwood Court, 12 High St, Solihull B91 3TB",
+  "city": "Solihull, Birmingham",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "If locked, ask a member of staff to unlock for you - may need to purchase something.",
+  "latitude": 52.413788,
+  "longitude": -1.779459,
+  "distance": 11.343250031580089,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f4a"
+  },
+  "refuge_id": 42644,
+  "name": "Cafe nero",
+  "street": "St. John’s street",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 51.4811238,
+  "longitude": -3.1786755,
+  "distance": 0.0429144364881094,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f4b"
+  },
+  "refuge_id": 28271,
+  "name": "Caffè Nero",
+  "street": "St John St",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 51.4811238,
+  "longitude": -3.1786755,
+  "distance": 0.0429144364881094,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f4c"
+  },
+  "refuge_id": 22227,
+  "name": "Cardiff castle ",
+  "street": "5 Duke St",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "You have to be a paying customer ",
+  "latitude": 51.4811656,
+  "longitude": -3.1799743,
+  "distance": 0.04765076012403015,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f4d"
+  },
+  "refuge_id": 22226,
+  "name": "Cardiff castle ",
+  "street": "5 Duke St",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "You have to be a paying customer ",
+  "latitude": 51.4811656,
+  "longitude": -3.1799743,
+  "distance": 0.04765076012403015,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f4e"
+  },
+  "refuge_id": 61085,
+  "name": "Chance & counters",
+  "street": "High street",
+  "city": "Cardiff ",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "You probably have to be a paying customer, but they might let you if you ask. No lifts available, narrow stairs. The door is quite hard to find. ",
+  "latitude": 51.4807599,
+  "longitude": -3.1802352,
+  "distance": 0.07636089646599405,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f4f"
+  },
+  "refuge_id": 56103,
+  "name": "Coffee #1",
+  "street": "The Friary",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "Two seperate bathrooms, one accessible with baby changing, both unisex. Theoretically for customer use only, but this isn't enforced.",
+  "latitude": 51.4825824,
+  "longitude": -3.1780044,
+  "distance": 0.08201742116183947,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f50"
+  },
+  "refuge_id": 53828,
+  "name": "Greazy Vegan",
+  "street": "47-49 Castle Arcade",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "All gender toilet for customer use only. Sanitary bin provided. ",
+  "latitude": 51.4807447,
+  "longitude": -3.1810651,
+  "distance": 0.10217025592302341,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f51"
+  },
+  "refuge_id": 28272,
+  "name": "Caffè Nero",
+  "street": "Queen Street",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 51.4821329,
+  "longitude": -3.1751829,
+  "distance": 0.17570243654971857,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f52"
+  },
+  "refuge_id": 28270,
+  "name": "Starbucks",
+  "street": "The Hayes",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 51.47911269999999,
+  "longitude": -3.1761825,
+  "distance": 0.2182451349849062,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f53"
+  },
+  "refuge_id": 47873,
+  "name": "Wow Bar",
+  "street": "4 Churchill Way",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Ask if you aren't buying anything. ",
+  "latitude": 51.48207550000001,
+  "longitude": -3.1733622,
+  "distance": 0.252588764760351,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f54"
+  },
+  "refuge_id": 66614,
+  "name": "The Queer Emporium",
+  "street": "St Mary’s Street",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Complete safe space",
+  "latitude": 51.477657,
+  "longitude": -3.1774893,
+  "distance": 0.28577557526101355,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f55"
+  },
+  "refuge_id": 3077,
+  "name": "Student's Union",
+  "street": "Park Place",
+  "city": "Cardiff",
+  "country": "UK",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": null,
+  "latitude": 51.48540209999999,
+  "longitude": -3.1759663,
+  "distance": 0.2938085137350147,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f56"
+  },
+  "refuge_id": 53826,
+  "name": "Slunks",
+  "street": "13-15 Wyndham Arcade",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "For salon clients only. Staff are friendly and helpful. The salon stock the toilet with various aerosol deodorants and sanitary products for customer use. ",
+  "latitude": 51.47757070000001,
+  "longitude": -3.176673,
+  "distance": 0.30229540210902645,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f57"
+  },
+  "refuge_id": 55802,
+  "name": "Little Man Coffee Co",
+  "street": "Bridge Street",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "One appears to be large enough to be accessible, but the cafe itself has a step to get in, and the tables are cluttered around.",
+  "latitude": 51.4799555,
+  "longitude": -3.1724659,
+  "distance": 0.3123811902148535,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f58"
+  },
+  "refuge_id": 4751,
+  "name": "King's",
+  "street": "10 Churchill Way",
+  "city": "Cardiff",
+  "country": "Wales",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 51.48110200000001,
+  "longitude": -3.171959,
+  "distance": 0.3136230638065214,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f59"
+  },
+  "refuge_id": 6315,
+  "name": "Wagamama (Cardiff Library)",
+  "street": "St Davids, 14 Mill Lane",
+  "city": "Cardiff",
+  "country": "United Kingdom",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "It's a restaurant, so you've got to buy something! I recommend the donburi for a whole meal, but gyoza are good for a little fast snacky thing to take away.",
+  "latitude": 51.4775664,
+  "longitude": -3.1757998,
+  "distance": 0.3179817594230564,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f5a"
+  },
+  "refuge_id": 55091,
+  "name": "Student union foyer",
+  "street": "Park place",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "You don't have to be a student",
+  "latitude": 51.4863497,
+  "longitude": -3.176798,
+  "distance": 0.34037925391909796,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f5b"
+  },
+  "refuge_id": 55090,
+  "name": "Third floor student union ",
+  "street": "Park place",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "You don't need to be a student to use this restroom ",
+  "latitude": 51.4863497,
+  "longitude": -3.176798,
+  "distance": 0.34037925391909796,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f5c"
+  },
+  "refuge_id": 34322,
+  "name": "Cardiff University School of Chemistry (Main Building)",
+  "street": "Cardiff University, Main Building, Park Place, CF10 3AT",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "It is technically inside the School of Chemistry so may be locked outside of normal hours.",
+  "latitude": 51.48662710000001,
+  "longitude": -3.1788641,
+  "distance": 0.34385858688014465,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f5d"
+  },
+  "refuge_id": 4748,
+  "name": "Cardiff University Student's Union",
+  "street": "Park Place, CF10 3QN",
+  "city": "Cardiff",
+  "country": "Wales",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Do not need to be a student",
+  "latitude": 51.486955,
+  "longitude": -3.1771752,
+  "distance": 0.37637642856499265,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f5e"
+  },
+  "refuge_id": 25538,
+  "name": "The Clink Restaurant ",
+  "street": "1 Knox Rd",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "For customers only. Possibly you could ask to use it if not a customer.",
+  "latitude": 51.482247,
+  "longitude": -3.1680305,
+  "distance": 0.48206518579385665,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f5f"
+  },
+  "refuge_id": 5006,
+  "name": "Tucker Cafe",
+  "street": "23 Salisbury Rd CF24 4AA",
+  "city": "Cardiff",
+  "country": "Wales",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 51.4878759,
+  "longitude": -3.1738463,
+  "distance": 0.4875457174363569,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f60"
+  },
+  "refuge_id": 28269,
+  "name": "Atrium",
+  "street": "Adam Street",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 51.4794535,
+  "longitude": -3.1679463,
+  "distance": 0.5072949301336229,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f61"
+  },
+  "refuge_id": 55208,
+  "name": "Arts and social studies library",
+  "street": "Colum Dr, Cardiff CF10 3EU",
+  "city": "Cardiff",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "You do not need a student ID to get into the library during business hours, the barriers open automatically ",
+  "latitude": 51.4916772,
+  "longitude": -3.184329,
+  "distance": 0.726890707251782,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f62"
+  },
+  "refuge_id": 4749,
+  "name": "Milgi's Cafe",
+  "street": "213 City Road CF24 3JD",
+  "city": "Cardiff",
+  "country": "Wales",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 51.49176689999999,
+  "longitude": -3.1713967,
+  "distance": 0.7750453913323818,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f63"
+  },
+  "refuge_id": 40527,
+  "name": "The Playground Coffee House",
+  "street": "45 St Nicholas Street",
+  "city": "Bristol BS1 1TP",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Down a steep set of stairs, no elevator.",
+  "latitude": 51.4537067,
+  "longitude": -2.5947407,
+  "distance": 0.11032418229177418,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f64"
+  },
+  "refuge_id": 4191,
+  "name": "OMG Bristol",
+  "street": "Frogmore Street",
+  "city": "Bristol",
+  "country": "UK",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Nightclub. So only open after 6pm.",
+  "latitude": 51.453884,
+  "longitude": -2.60032,
+  "distance": 0.13021385713587103,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f65"
+  },
+  "refuge_id": 66021,
+  "name": "The Watershed",
+  "street": "Waterfront",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Have inclusive bathrooms and are trans friendly",
+  "latitude": 51.4517678,
+  "longitude": -2.598014,
+  "distance": 0.14389974683560244,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f66"
+  },
+  "refuge_id": 17862,
+  "name": "QueenShilling",
+  "street": "9 Frogmore St",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "The Q/s has a female bathroom, and one labelled 'mans and gender neutral bathroom'. There is a cubicle in this and urinals a little further along, blocked from view by a partial wall.",
+  "latitude": 51.45366629999999,
+  "longitude": -2.6009352,
+  "distance": 0.15686033762686152,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f67"
+  },
+  "refuge_id": 43622,
+  "name": "Chance & Counters",
+  "street": "20 Christmas Steps",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "If you’re not a customer just ask at the bar",
+  "latitude": 51.4560885,
+  "longitude": -2.5964271,
+  "distance": 0.16236213228395183,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f68"
+  },
+  "refuge_id": 23509,
+  "name": "Chance & Counters",
+  "street": "20 Christmas Steps",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Two gender neutral stalls.",
+  "latitude": 51.4561587,
+  "longitude": -2.5968187,
+  "distance": 0.16412362209398815,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f69"
+  },
+  "refuge_id": 66234,
+  "name": "The Watershed ",
+  "street": "1 Canon's Rd",
+  "city": "Bristol ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "They are a queer venue and advertise the loos as public bathrooms for anyone to use. There are many single cubicles all of which are gender neutral, some have sinks inside them and some don't. They have accessible loos and baby changing also.\r\nFree sanitary producta are also available. ",
+  "latitude": 51.4513939,
+  "longitude": -2.598253,
+  "distance": 0.1713974832494904,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f6a"
+  },
+  "refuge_id": 17868,
+  "name": "Roll for the Soul",
+  "street": "Unit 2, St.Lawrence House, Quay Street",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 51.4559331,
+  "longitude": -2.5952378,
+  "distance": 0.1718967938327153,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f6b"
+  },
+  "refuge_id": 43083,
+  "name": "Zaza bazaar ",
+  "street": "Canon’s rd ",
+  "city": "Bristol ",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "",
+  "latitude": 51.45132479999999,
+  "longitude": -2.59859,
+  "distance": 0.1799776540641405,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f6c"
+  },
+  "refuge_id": 48074,
+  "name": "The Famous Royal Navy Volunteer ",
+  "street": "17-18 King Street",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Needs a radar key, though staff should let you in.",
+  "latitude": 51.45205350000001,
+  "longitude": -2.5932013,
+  "distance": 0.21381882520021464,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f6d"
+  },
+  "refuge_id": 57852,
+  "name": "Boston Tea Party",
+  "street": "Park St",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 51.45438979999999,
+  "longitude": -2.6025892,
+  "distance": 0.23138035807566723,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f6e"
+  },
+  "refuge_id": 4178,
+  "name": "Arnolfini",
+  "street": "6 Narrow Quay",
+  "city": "Bristol",
+  "country": "UK",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "If anyone could check this out for me and update the entry that would be great. I'm not going to Bristol anytime soon.",
+  "latitude": 51.4501507,
+  "longitude": -2.5974,
+  "distance": 0.2523321214324201,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f6f"
+  },
+  "refuge_id": 63417,
+  "name": "Strange Brew",
+  "street": "10-12 Fairfax St",
+  "city": "Bristol ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Urinals, cubicals and a \"women only\" section",
+  "latitude": 51.4563759,
+  "longitude": -2.5924486,
+  "distance": 0.2742671498056577,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f70"
+  },
+  "refuge_id": 40595,
+  "name": "Rough Trade",
+  "street": "Bridewell Street",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 51.4571125,
+  "longitude": -2.5932308,
+  "distance": 0.28806756775453923,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f71"
+  },
+  "refuge_id": 6119,
+  "name": "The Kitchen",
+  "street": "Silver Street, The Station, BS1 2AG",
+  "city": "Bristol",
+  "country": "United Kingdom",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Signposted 'for customers'",
+  "latitude": 51.4568006,
+  "longitude": -2.5925813,
+  "distance": 0.2901138545211067,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f72"
+  },
+  "refuge_id": 60808,
+  "name": "Locked in a room",
+  "street": "Explore lane",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "You have to have payed to play not open to public",
+  "latitude": 51.4501519,
+  "longitude": -2.6011411,
+  "distance": 0.30163626350910683,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f73"
+  },
+  "refuge_id": 56890,
+  "name": "Ashton park school pupil toilets",
+  "street": "Bower lane",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "The only difference between these and the normal ones is they took the signs away",
+  "latitude": 51.4575052,
+  "longitude": -2.5933689,
+  "distance": 0.30673012139730105,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f74"
+  },
+  "refuge_id": 18472,
+  "name": "The station",
+  "street": "silver street, bs1 2ag",
+  "city": "bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "useable no matter what, do not need to be attending an event/buying something.\r\nThere are singular stalls at the front and an accessible toilet at the back. \r\nEntirely gender neutral.",
+  "latitude": 51.4573346,
+  "longitude": -2.592496,
+  "distance": 0.31987408597310973,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f75"
+  },
+  "refuge_id": 43082,
+  "name": "Riverstation ",
+  "street": "The grove ",
+  "city": "Bristol ",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "",
+  "latitude": 51.4494045,
+  "longitude": -2.5948749,
+  "distance": 0.32127174409081705,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f76"
+  },
+  "refuge_id": 53426,
+  "name": "Watershed",
+  "street": "1 Canons Way",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 51.4491604,
+  "longitude": -2.602344,
+  "distance": 0.387369944521668,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f77"
+  },
+  "refuge_id": 58410,
+  "name": "Dales ",
+  "street": "Fhxjd",
+  "city": "Bristol ",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Ykdickckx gfcfh",
+  "latitude": 51.454513,
+  "longitude": -2.58791,
+  "distance": 0.40719303165377524,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f78"
+  },
+  "refuge_id": 52622,
+  "name": "Alex",
+  "street": "Woodland Road",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "This is a university building but you should be able to enter and leave without any problems. Just be confident.",
+  "latitude": 51.458724,
+  "longitude": -2.6038368,
+  "distance": 0.44145358861498823,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f79"
+  },
+  "refuge_id": 41452,
+  "name": "Cargo Unit 2",
+  "street": "Museum Street",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "Ask for a code at any restaurants in the Cargo units.",
+  "latitude": 51.4470811,
+  "longitude": -2.6004148,
+  "distance": 0.48338050899988766,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f7a"
+  },
+  "refuge_id": 60803,
+  "name": "Itsu customer toilets",
+  "street": "Broadmead",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "You have to be a paying customer as the password for the keypad is on the bottom of your receipt",
+  "latitude": 51.4582772,
+  "longitude": -2.5876249,
+  "distance": 0.5187043822959129,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f7b"
+  },
+  "refuge_id": 21365,
+  "name": "Beacon House, University of Bristol",
+  "street": "Queens Road",
+  "city": "Bristol",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Open to the public.",
+  "latitude": 51.45744389999999,
+  "longitude": -2.608703,
+  "distance": 0.5517204651570443,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f7c"
+  },
+  "refuge_id": 61031,
+  "name": "Sheffield Plate",
+  "street": "Orchard Square",
+  "city": "Sheffield",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "It's a food hall so there's no problem getting to the toilets without being a paying customer",
+  "latitude": 53.3814741,
+  "longitude": -1.470395,
+  "distance": 0.056491090124902964,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f7d"
+  },
+  "refuge_id": 43146,
+  "name": "Pret A Manger",
+  "street": "Fargate ",
+  "city": "Sheffield",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "In my experience you can just walk in and use them as they’re usually super busy and don’t mind ",
+  "latitude": 53.3813702,
+  "longitude": -1.4693343,
+  "distance": 0.06120705286917559,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f7e"
+  },
+  "refuge_id": 39464,
+  "name": "Costa coffee, Orchard Square, Sheffield S1 2FB, UK",
+  "street": "7 Orchard Square",
+  "city": "Sheffield",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.3816448,
+  "longitude": -1.4707087,
+  "distance": 0.07069839581967377,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f7f"
+  },
+  "refuge_id": 63556,
+  "name": "Wagamama",
+  "street": "Orchard ln",
+  "city": "Sheffield",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.3813413,
+  "longitude": -1.4717697,
+  "distance": 0.07897630211105724,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f80"
+  },
+  "refuge_id": 24995,
+  "name": "Marmadukes Cafe Deli",
+  "street": "22 Norfolk Row Sheffield, S1 2PA",
+  "city": "Sheffield",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "You probably have to be a paying customer (I didn't check, sorry) but if in doubt just get a glass of tap water (it's free) and go right ahead. Or just grab a can of Coca Cola or something.",
+  "latitude": 53.381055,
+  "longitude": -1.468234,
+  "distance": 0.08652910128105308,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f81"
+  },
+  "refuge_id": 54046,
+  "name": "Taco Bell",
+  "street": "devonshire street",
+  "city": "sheffield",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.3799304,
+  "longitude": -1.4745786,
+  "distance": 0.18631475262199534,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f82"
+  },
+  "refuge_id": 21518,
+  "name": "Owen building, Hallam university ",
+  "street": "Hallam square ",
+  "city": "Sheffield ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Building is open 8am to 9pm. Security sometimes check student IDs towards closing, but the rest of the day anyone can walk in without issue.",
+  "latitude": 53.3789688,
+  "longitude": -1.4664323,
+  "distance": 0.19536260904505107,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f83"
+  },
+  "refuge_id": 65988,
+  "name": "Howst Cafe ",
+  "street": "46 Howard Street",
+  "city": "Sheffield City Centre ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Paying customer friendly cafe. ",
+  "latitude": 53.3786551,
+  "longitude": -1.4667861,
+  "distance": 0.19839408941709266,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f84"
+  },
+  "refuge_id": 67778,
+  "name": "Slug & Lettuce",
+  "street": "West Street",
+  "city": "Sheffield",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.3809558,
+  "longitude": -1.4756857,
+  "distance": 0.22585082961025646,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f85"
+  },
+  "refuge_id": 21783,
+  "name": "Street Food Chef",
+  "street": "Arundel Street ",
+  "city": "Sheffield ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Probably customers only, but they're unlikely to stop you.\r\nStall is large, but doesn't have rails so unknown accessibility. \r\nThe food is good too.",
+  "latitude": 53.3767182,
+  "longitude": -1.4684907,
+  "distance": 0.281779187554242,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f86"
+  },
+  "refuge_id": 61346,
+  "name": "AsylumHub Café",
+  "street": "Bank Street",
+  "city": "Sheffield",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "Gendered by sign but staff are LGBTQIA+ inc Transgender and Ask for Sandy program runs for free sanitary products for anyone regardless of “apparent” gender.",
+  "latitude": 53.3844628,
+  "longitude": -1.4671915,
+  "distance": 0.29086119764914947,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f87"
+  },
+  "refuge_id": 21088,
+  "name": "HUBS",
+  "street": "Paternoster row ",
+  "city": "Sheffield ",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.3775401,
+  "longitude": -1.4654293,
+  "distance": 0.29267595095039,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f88"
+  },
+  "refuge_id": 43610,
+  "name": "Sheffield Hallam Students Union - hideout bar",
+  "street": "Paternoster Riw",
+  "city": "SHEFFIELD",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Student bar but open to the public most days (unless a special event is on).",
+  "latitude": 53.3775401,
+  "longitude": -1.4654293,
+  "distance": 0.29267595095039,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f89"
+  },
+  "refuge_id": 21090,
+  "name": "HUBS",
+  "street": "Paternoster row ",
+  "city": "Sheffield ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.3775401,
+  "longitude": -1.4654293,
+  "distance": 0.29267595095039,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f8a"
+  },
+  "refuge_id": 47885,
+  "name": "National Videogame Museum",
+  "street": "19 Angel St",
+  "city": "Sheffield ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "Gender neutral toilet block and separate accessible toilet with changing table. Friendly staff for queer folk. ",
+  "latitude": 53.3842674,
+  "longitude": -1.4664234,
+  "distance": 0.29430762338530503,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f8b"
+  },
+  "refuge_id": 44452,
+  "name": "Costa Coffee",
+  "street": "The Moor",
+  "city": "Sheffield ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Paying customers only (door code on receipt) but door code may be C27384. Unsure about changing facilities",
+  "latitude": 53.3761083,
+  "longitude": -1.4735277,
+  "distance": 0.3428071301887208,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f8c"
+  },
+  "refuge_id": 44451,
+  "name": "Costa Coffee",
+  "street": "The Moor",
+  "city": "Sheffield",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Paying customers only (door code on receipt) but the door code may be C27384",
+  "latitude": 53.3761083,
+  "longitude": -1.4735277,
+  "distance": 0.3428071301887208,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f8d"
+  },
+  "refuge_id": 43603,
+  "name": "Queer Junction",
+  "street": "The Moor",
+  "city": "Sheffield",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.3760893,
+  "longitude": -1.473548,
+  "distance": 0.34434421608984495,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f8e"
+  },
+  "refuge_id": 65989,
+  "name": "Patriot Games ",
+  "street": "97 Mary St ",
+  "city": "Sheffield ",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Sells bored games and TCG games but if you ask the Patriot Games staff Nicely if you can use the toilet then they should allow u too. ",
+  "latitude": 53.374078,
+  "longitude": -1.4694267,
+  "distance": 0.45614853585953863,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f8f"
+  },
+  "refuge_id": 23209,
+  "name": "The Diamond (University of Sheffield)",
+  "street": "32 Leavygreave Rd",
+  "city": "Sheffield",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Explicitly labelled as a gender-neutral inclusive toilet facility. There are a large number of single stalls.",
+  "latitude": 53.3811611,
+  "longitude": -1.4830481,
+  "distance": 0.5294926072339972,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f90"
+  },
+  "refuge_id": 39477,
+  "name": "Sheffield University Students Union",
+  "street": "Brook Hill",
+  "city": "Sheffield ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.3819615,
+  "longitude": -1.483848,
+  "distance": 0.5684616151289049,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f91"
+  },
+  "refuge_id": 2789,
+  "name": "Richard Roberts Building",
+  "street": "Brook Hill",
+  "city": "Sheffield",
+  "country": "UK",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Look like a student.",
+  "latitude": 53.38194559999999,
+  "longitude": -1.483955,
+  "distance": 0.572645566430222,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f92"
+  },
+  "refuge_id": 48043,
+  "name": "Brood cafe bar ",
+  "street": "342 Glossop Rd, Sheffield, S10 2HW",
+  "city": "South Yorkshire",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.3803206,
+  "longitude": -1.4853996,
+  "distance": 0.6257375423125437,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f93"
+  },
+  "refuge_id": 65251,
+  "name": "Treehouse Board Games Cafe",
+  "street": "Boston Street",
+  "city": "Sheffield",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "Accessible gender neutral single bathroom. There are more gendered toilets downstairs. Queer friendly venue.",
+  "latitude": 53.3718273,
+  "longitude": -1.4766955,
+  "distance": 0.666130731829479,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f94"
+  },
+  "refuge_id": 3579,
+  "name": "University of Sheffield Students' Union",
+  "street": "Western Bank",
+  "city": "Sheffield",
+  "country": "UK",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Can walk in during the day, used during club nights as well but you won't get in at night without a ticket.",
+  "latitude": 53.381017,
+  "longitude": -1.4907938,
+  "distance": 0.8479546960855635,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f95"
+  },
+  "refuge_id": 63884,
+  "name": "Costa Coffee",
+  "street": "Parliament street",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Paying customer",
+  "latitude": 53.9588751,
+  "longitude": -1.0812296,
+  "distance": 0.017624136211140555,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f96"
+  },
+  "refuge_id": 49306,
+  "name": "Pivni york",
+  "street": "6 Patrick's pool",
+  "city": "York ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "There are men, women's and gender neutral toilets to the rear of the 2nd floor ",
+  "latitude": 53.9596131,
+  "longitude": -1.0805131,
+  "distance": 0.05668985012955181,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f97"
+  },
+  "refuge_id": 65815,
+  "name": "Church Lane Building",
+  "street": "Church Lane",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.957917,
+  "longitude": -1.0828948,
+  "distance": 0.09611809362954919,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f98"
+  },
+  "refuge_id": 17381,
+  "name": "Waterstones",
+  "street": "15 Coney Street",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.9591674,
+  "longitude": -1.0839391,
+  "distance": 0.09799204190886054,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f99"
+  },
+  "refuge_id": 59726,
+  "name": "Jorvick",
+  "street": "Coppergate walk",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "You have to be visitinf the museun to use the toilets",
+  "latitude": 53.9575645,
+  "longitude": -1.0802541,
+  "distance": 0.11545083424096368,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f9a"
+  },
+  "refuge_id": 40819,
+  "name": "El Piano ",
+  "street": "15/17 Grape Lane",
+  "city": "York ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Friendly staff. Lip to navigate through patio doors. ",
+  "latitude": 53.960882,
+  "longitude": -1.0820687,
+  "distance": 0.12804269712632038,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f9b"
+  },
+  "refuge_id": 46993,
+  "name": "Cosy Time",
+  "street": "23 Fossgate",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": false,
+  "comment": "Act like you're just going to take a seat ",
+  "latitude": 53.9582358,
+  "longitude": -1.0784918,
+  "distance": 0.13610165256422607,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f9c"
+  },
+  "refuge_id": 59649,
+  "name": "Evil Eye",
+  "street": "Stonegate",
+  "city": "York",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.96079229999999,
+  "longitude": -1.0835503,
+  "distance": 0.14527408715208795,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f9d"
+  },
+  "refuge_id": 45880,
+  "name": "Goji Cafe",
+  "street": "Goodramgate ",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Paying customers only",
+  "latitude": 53.9615399,
+  "longitude": -1.0798148,
+  "distance": 0.18536908431147425,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f9e"
+  },
+  "refuge_id": 51644,
+  "name": "FortyFive Vinyl Café",
+  "street": "29 Micklegate",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.9571506,
+  "longitude": -1.086323,
+  "distance": 0.2349306947396462,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867f9f"
+  },
+  "refuge_id": 51320,
+  "name": "Spark:York",
+  "street": "Picadilly ",
+  "city": "York",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.9565589,
+  "longitude": -1.0774349,
+  "distance": 0.23990319127607151,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fa0"
+  },
+  "refuge_id": 17549,
+  "name": "Spring Espresso",
+  "street": "45 Fossgate",
+  "city": "York",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "The best coffee in York with one non-gendered stall at the rear",
+  "latitude": 53.957086,
+  "longitude": -1.076601,
+  "distance": 0.24242211701600477,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fa1"
+  },
+  "refuge_id": 64340,
+  "name": "York Art Gallery ",
+  "street": "Exhibition Sq",
+  "city": "York ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "Entry to the main galleries is free. There's a focus on the queer aspects of the collection, which is refreshing ",
+  "latitude": 53.9625831,
+  "longitude": -1.0856988,
+  "distance": 0.2967148844369564,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fa2"
+  },
+  "refuge_id": 19028,
+  "name": "Costa Coffee",
+  "street": "13a Museum Street",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "In my experience, you don't have to buy anything but I would recommend it",
+  "latitude": 53.9612176,
+  "longitude": -1.0880113,
+  "distance": 0.3026592696601865,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fa3"
+  },
+  "refuge_id": 18286,
+  "name": "York Explore Library",
+  "street": "Museum Street",
+  "city": "York",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "there is a disabled toilet and a baby changing room. both serve as single-occupancy gender-neutral toilets",
+  "latitude": 53.9612176,
+  "longitude": -1.0880113,
+  "distance": 0.3026592696601865,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fa4"
+  },
+  "refuge_id": 38541,
+  "name": "Costa Coffee ",
+  "street": "13A Museum Street",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 53.9618724,
+  "longitude": -1.0874766,
+  "distance": 0.3101538154942669,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fa5"
+  },
+  "refuge_id": 53381,
+  "name": "Random Encounter",
+  "street": "9 gillygate",
+  "city": "York",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Single stall bathroom. Gender neutral. Free for anyone to use. Cafe is an LGBT safe space.",
+  "latitude": 53.9639106,
+  "longitude": -1.0844153,
+  "distance": 0.355285841431404,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fa6"
+  },
+  "refuge_id": 22641,
+  "name": "Fibbers",
+  "street": "3 Toft Green",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "You have to pay for entrance",
+  "latitude": 53.9574295,
+  "longitude": -1.0898857,
+  "distance": 0.3575433214153498,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fa7"
+  },
+  "refuge_id": 50846,
+  "name": "Minster Inn ",
+  "street": "Marygate ",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Lovely pub 3 stalls female neutral and male no-one honestly gives a shit. And you have a few regular trans crowds that drink in there ",
+  "latitude": 53.9626045,
+  "longitude": -1.0889743,
+  "distance": 0.38929859262231753,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fa8"
+  },
+  "refuge_id": 41219,
+  "name": "York St John University ",
+  "street": "47 Lord Mayor's Walk",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 53.9647697,
+  "longitude": -1.0818886,
+  "distance": 0.39507300329645484,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fa9"
+  },
+  "refuge_id": 18376,
+  "name": "Cafe 68",
+  "street": "68 Gillygate",
+  "city": "York",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Must be paying customer, but the cakes are amazing.",
+  "latitude": 53.964973,
+  "longitude": -1.083384,
+  "distance": 0.415702564193848,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867faa"
+  },
+  "refuge_id": 40686,
+  "name": "Yorkshire MESMAC York Office",
+  "street": "Marygate Lane",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "You need to ring to enter and this is the home of York LGBT Forum!",
+  "latitude": 53.96253189999999,
+  "longitude": -1.0904809,
+  "distance": 0.4357813051361875,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fab"
+  },
+  "refuge_id": 40653,
+  "name": "Pig and Pastry",
+  "street": "35 Bishopthorpe Road",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": false,
+  "comment": "This is a really lovely place for a coffee and a queer friendly meet up!",
+  "latitude": 53.9513488,
+  "longitude": -1.0852846,
+  "distance": 0.553860741194156,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fac"
+  },
+  "refuge_id": 59727,
+  "name": "Public wc",
+  "street": "Bootham cresent",
+  "city": "York",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "40p entry",
+  "latitude": 53.9671073,
+  "longitude": -1.0889047,
+  "distance": 0.6318306336309178,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fad"
+  },
+  "refuge_id": 35377,
+  "name": " National railway museum",
+  "street": "leeman road",
+  "city": "York ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Museum is free ",
+  "latitude": 53.96055089999999,
+  "longitude": -1.0979105,
+  "distance": 0.6736109347781803,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fae"
+  },
+  "refuge_id": 40709,
+  "name": "Made in Belfast",
+  "street": "Wellington Buildings",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Very safe restrooms, stalls are like an individual room",
+  "latitude": 54.5964116,
+  "longitude": -5.9323066,
+  "distance": 0.08501937659255383,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867faf"
+  },
+  "refuge_id": 4190,
+  "name": "Boojum",
+  "street": "9-27 Chichester Street",
+  "city": "Belfast",
+  "country": "UK",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": null,
+  "latitude": 54.597375,
+  "longitude": -5.928195,
+  "distance": 0.10466061509487633,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fb0"
+  },
+  "refuge_id": 48162,
+  "name": "Bob & Berts",
+  "street": "57 Fountain Street",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 54.5976185,
+  "longitude": -5.9319315,
+  "distance": 0.10996342068144241,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fb1"
+  },
+  "refuge_id": 48572,
+  "name": "Starbucks",
+  "street": "24 Great Victoria Street",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "You have to be a paying customer. Bathroom code is always tomorrow’s date in day/month format. E.g., on 22nd of March, passcode is 2303",
+  "latitude": 54.59516139999999,
+  "longitude": -5.9342826,
+  "distance": 0.18479250340267372,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fb2"
+  },
+  "refuge_id": 64435,
+  "name": "City Picnic ",
+  "street": "Castle Street",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 54.599205,
+  "longitude": -5.9330295,
+  "distance": 0.22535474849747725,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fb3"
+  },
+  "refuge_id": 35904,
+  "name": "Fish City",
+  "street": "33 Ann St.",
+  "city": "Belfast,  BT1 4EB, UK",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "You would need to be a paying customer",
+  "latitude": 54.5989945,
+  "longitude": -5.9259021,
+  "distance": 0.2484311161461527,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fb4"
+  },
+  "refuge_id": 48571,
+  "name": "Wagamama",
+  "street": "1 Victoria Square",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Have to be a paying customer getting food ",
+  "latitude": 54.5984983,
+  "longitude": -5.9249256,
+  "distance": 0.2558942222194524,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fb5"
+  },
+  "refuge_id": 35173,
+  "name": "Fish City",
+  "street": "Ann St",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": false,
+  "comment": "Marked with male and female signage, disabled single stall.",
+  "latitude": 54.599353,
+  "longitude": -5.9249466,
+  "distance": 0.2929365784157395,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fb6"
+  },
+  "refuge_id": 6054,
+  "name": "Little Wing",
+  "street": "10 Ann Street",
+  "city": "Belfast",
+  "country": "United Kingdom",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 54.5993663,
+  "longitude": -5.924907,
+  "distance": 0.2947129742977079,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fb7"
+  },
+  "refuge_id": 58593,
+  "name": "Northern Whig Bar",
+  "street": "2 Bridge Street",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "",
+  "latitude": 54.60056669999999,
+  "longitude": -5.9280209,
+  "distance": 0.30121130008658387,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fb8"
+  },
+  "refuge_id": 58594,
+  "name": "The Cafe, River House",
+  "street": "48-60, High Street, BT12BE",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 54.6003856,
+  "longitude": -5.926379799999999,
+  "distance": 0.3151951218861278,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fb9"
+  },
+  "refuge_id": 5963,
+  "name": "Belfast LGB&T Center",
+  "street": "9-13 Waring Street",
+  "city": "Belfast",
+  "country": "United Kingdom",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 54.60072599999999,
+  "longitude": -5.927252999999999,
+  "distance": 0.32165920948938254,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fba"
+  },
+  "refuge_id": 51472,
+  "name": "Bunsen",
+  "street": "5-8 Hill St",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 54.60118199999999,
+  "longitude": -5.9267394,
+  "distance": 0.35857348067876077,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fbb"
+  },
+  "refuge_id": 34014,
+  "name": "Belfast",
+  "street": "City center",
+  "city": "Belfast ",
+  "country": "US",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 54.60165809999999,
+  "longitude": -5.9310569,
+  "distance": 0.3655989270347051,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fbc"
+  },
+  "refuge_id": 20790,
+  "name": "The Green Room in The Black Box",
+  "street": "Hill street ",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Only the Green Room has specificallygender neutral toilets. In the Black Box main room, there is an accessible toilet but it isn't specifically gender neutral.",
+  "latitude": 54.60193109999999,
+  "longitude": -5.927062599999999,
+  "distance": 0.4026428570339473,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fbd"
+  },
+  "refuge_id": 42157,
+  "name": "Greggs ",
+  "street": "54 Botanic Avenue",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": false,
+  "comment": "",
+  "latitude": 54.5877707,
+  "longitude": -5.9326881,
+  "distance": 0.6039895465070013,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fbe"
+  },
+  "refuge_id": 4189,
+  "name": "Boojum",
+  "street": "73 Botanic Avenue",
+  "city": "Belfast",
+  "country": "UK",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": null,
+  "latitude": 54.587252,
+  "longitude": -5.932623,
+  "distance": 0.6389549380975001,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fbf"
+  },
+  "refuge_id": 41704,
+  "name": "Ulster Museum ",
+  "street": "Botanic ct",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Free entry to museum. Toilet located on ground floor.",
+  "latitude": 54.58693040000001,
+  "longitude": -5.9324704,
+  "distance": 0.6600476851020147,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fc0"
+  },
+  "refuge_id": 66090,
+  "name": "Caffé Nero",
+  "street": "47 University Rd",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 54.5860485,
+  "longitude": -5.9362745,
+  "distance": 0.7550631106592536,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fc1"
+  },
+  "refuge_id": 57274,
+  "name": "Euro Spar Donegal Road",
+  "street": "250 Donegal Road",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "You technical have to be a paying customer, but if you act like you are browsing for a moment you should be fine, staff are polite and kind",
+  "latitude": 54.5887159,
+  "longitude": -5.9478729,
+  "distance": 0.884708911132839,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fc2"
+  },
+  "refuge_id": 15775,
+  "name": "The Dock Cafe, ",
+  "street": "2K Queen’s Road, Belfast BT3 9DT, United Kingdom",
+  "city": "Belfast",
+  "country": "United Kingdom",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 54.6044104,
+  "longitude": -5.9111842,
+  "distance": 0.9408658540905676,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fc3"
+  },
+  "refuge_id": 66728,
+  "name": "Euro Spar Shankill Road",
+  "street": "Shankill Road",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Technically have to be a paying customer, but staff don't take issue. There are men's, women's and an accessible restroom",
+  "latitude": 54.6041683,
+  "longitude": -5.950658,
+  "distance": 0.9799664369469582,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fc4"
+  },
+  "refuge_id": 47958,
+  "name": "387",
+  "street": "Ormeau Road",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Nice little vegan cafe run by lovely people.",
+  "latitude": 54.5790894,
+  "longitude": -5.9197061,
+  "distance": 1.2668792983893928,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fc5"
+  },
+  "refuge_id": 66087,
+  "name": "Lisburn Road Library",
+  "street": "440 Lisburn Road",
+  "city": "Belfast",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "",
+  "latitude": 54.57048229999999,
+  "longitude": -5.9622525,
+  "distance": 2.2030459671483924,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fc6"
+  },
+  "refuge_id": 6055,
+  "name": "21 Social",
+  "street": "1 Hill St",
+  "city": "Belfast",
+  "country": "United Kingdom",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 54.6107606,
+  "longitude": -5.986358,
+  "distance": 2.457652139255701,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fc7"
+  },
+  "refuge_id": 51656,
+  "name": "Costa, George Square, Glasgow ",
+  "street": "50 George Square",
+  "city": "Glasgow City",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "The code to access this toilet is on the bottom of your receipt ",
+  "latitude": 55.8617067,
+  "longitude": -4.2493263,
+  "distance": 0.050199383935379156,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fc8"
+  },
+  "refuge_id": 34776,
+  "name": "University of Strathclyde Student Association",
+  "street": "John Street",
+  "city": "Glasgow",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Only for students (of most universities granted), but only check student IDs once there is a bouncer on the door after around mid-afternoon.",
+  "latitude": 55.861237,
+  "longitude": -4.2473732,
+  "distance": 0.10854390045974964,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fc9"
+  },
+  "refuge_id": 8002,
+  "name": "University of Strathclyde Union",
+  "street": "John Street",
+  "city": "Glasgow",
+  "country": "United Kingdom",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "You technically need to be a Strath student (or have one sign you in), but this is only an issue in the late afternoon/evening. During the day it's unlikely anyone will question you going in.",
+  "latitude": 55.8599961,
+  "longitude": -4.247693,
+  "distance": 0.12500809295822196,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fca"
+  },
+  "refuge_id": 53777,
+  "name": "GoMA",
+  "street": "Royal Exchange square",
+  "city": "Glasgow",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 55.8600177,
+  "longitude": -4.2531225,
+  "distance": 0.1389001411409487,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fcb"
+  },
+  "refuge_id": 22836,
+  "name": "University of Strathclyde",
+  "street": "90 John Street",
+  "city": "Glasgow",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 55.86201399999999,
+  "longitude": -4.246739900000001,
+  "distance": 0.14559706355969526,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fcc"
+  },
+  "refuge_id": 46935,
+  "name": "Doghouse",
+  "street": "Hutcheson Street",
+  "city": "Glasgow",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "Ideally for customers but if it’s too quiet to go in undetected then just ask a member of staff, they are friendly and accommodating. ",
+  "latitude": 55.85865769999999,
+  "longitude": -4.248006900000001,
+  "distance": 0.1918315242184411,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fcd"
+  },
+  "refuge_id": 39193,
+  "name": "Polo Lounge",
+  "street": "Wilson street",
+  "city": "Glasgow ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 55.8586107,
+  "longitude": -4.247600800000001,
+  "distance": 0.20203608065059128,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fce"
+  },
+  "refuge_id": 34375,
+  "name": "DLC Hairdressing",
+  "street": "10 Mitchel Lane",
+  "city": "Glasgow",
+  "country": "GB",
+  "unisex": false,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "You have to be in for a haircut to use the bathroom and it's a pricey place but it's very LGBT friendly! ",
+  "latitude": 55.85983239999999,
+  "longitude": -4.2551263,
+  "distance": 0.21285013519879198,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fcf"
+  },
+  "refuge_id": 6110,
+  "name": "EAT",
+  "street": "33 Gordon St",
+  "city": "Glasgow",
+  "country": "United Kingdom",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Paying customers only.",
+  "latitude": 55.8604373,
+  "longitude": -4.2558867,
+  "distance": 0.22719624378589678,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fd0"
+  },
+  "refuge_id": 17132,
+  "name": "EAT",
+  "street": "Unit 2, Buchanan Galleries, Sauchiehall St,",
+  "city": "Glasgow G2 3GF",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Paying customers only",
+  "latitude": 55.8641778,
+  "longitude": -4.2530876,
+  "distance": 0.23754885305949044,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fd1"
+  },
+  "refuge_id": 2194,
+  "name": "Stereo",
+  "street": "\t22-28 Renfield Lane  Glasgow G2 6PH",
+  "city": "Glasgow",
+  "country": "UK",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "This place is very near central station, and is great if you are stuck in town shopping or whatever,and not near the lgbt triangle and the coffee is great.",
+  "latitude": 55.8619909,
+  "longitude": -4.256295,
+  "distance": 0.24446617112555244,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fd2"
+  },
+  "refuge_id": 47620,
+  "name": "Buchanan galleries ",
+  "street": "Killermont street",
+  "city": "Glasgow ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Make sure no security is looking and press the button to access the disabled area and act natural lol",
+  "latitude": 55.8648187,
+  "longitude": -4.2515466,
+  "distance": 0.2587136754581095,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fd3"
+  },
+  "refuge_id": 62819,
+  "name": "City of Glasgow college ",
+  "street": "cathedral street",
+  "city": "Glasgow ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Anyone can you the toilets on the ground and second floors but the rest are for students only",
+  "latitude": 55.8630245,
+  "longitude": -4.2431078,
+  "distance": 0.3027226578805558,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fd4"
+  },
+  "refuge_id": 46109,
+  "name": "Costa St Enoch Centre",
+  "street": "143 Argyle street",
+  "city": "Glasgow",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": true,
+  "accessible": true,
+  "comment": "You can easily use the downstairs stall without purchasing anything as it's in the extra seating area which is accessible by a separate door.",
+  "latitude": 55.85676400000001,
+  "longitude": -4.2529411,
+  "distance": 0.3218732442394302,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fd5"
+  },
+  "refuge_id": 56224,
+  "name": "The Flying Duck ",
+  "street": "142 Renfield Street",
+  "city": "Glasgow ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "One room is urinals, one is just stalls ",
+  "latitude": 55.8655041,
+  "longitude": -4.2550565,
+  "distance": 0.35526378805635084,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fd6"
+  },
+  "refuge_id": 65241,
+  "name": "The Locale",
+  "street": "214 North St",
+  "city": "Glasgow ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Explicitly trans friendly pub",
+  "latitude": 55.8585702,
+  "longitude": -4.2581486,
+  "distance": 0.35727257651066796,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fd7"
+  },
+  "refuge_id": 33674,
+  "name": "MEGAbytes",
+  "street": "169 Howard St, Glasgow G1 4HF",
+  "city": "Glasgow",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 55.8557347,
+  "longitude": -4.251168499999999,
+  "distance": 0.3765080024046219,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fd8"
+  },
+  "refuge_id": 33675,
+  "name": "MEGAbytes",
+  "street": "169 Howard St, Glasgow G1 4HF",
+  "city": "Glasgow",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 55.8557347,
+  "longitude": -4.251168499999999,
+  "distance": 0.3765080024046219,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fd9"
+  },
+  "refuge_id": 52589,
+  "name": "George Moore Building, Glasgow G4 0BA, UK",
+  "street": "George Moore Building",
+  "city": "Glasgow City",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "Two single-stall rooms featuring male and female signage. ",
+  "latitude": 55.8670158,
+  "longitude": -4.2499005,
+  "distance": 0.40507564907899213,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fda"
+  },
+  "refuge_id": 51625,
+  "name": "Buff Club",
+  "street": "142 Bath Lane",
+  "city": "Glasgow",
+  "country": "",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 55.86408180000001,
+  "longitude": -4.261078299999999,
+  "distance": 0.4688580446125162,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fdb"
+  },
+  "refuge_id": 34991,
+  "name": "The Hub, University of the West of Scotland",
+  "street": "Robertson Trust Library, Storie Street",
+  "city": "Paisley",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "This building is open to the public. You do not need to be a student to use this toilet.",
+  "latitude": 55.8645023,
+  "longitude": -4.2607575,
+  "distance": 0.47122425526248213,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fdc"
+  },
+  "refuge_id": 39837,
+  "name": "Bar Bloc",
+  "street": "Bath Street",
+  "city": "Glasgow",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "",
+  "latitude": 55.8644792,
+  "longitude": -4.261794099999999,
+  "distance": 0.5059007183877027,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fdd"
+  },
+  "refuge_id": 51798,
+  "name": "The Vic Cafe and Bar",
+  "street": "20 scott street",
+  "city": "Glasgow ",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": false,
+  "comment": "don't have to be a customer",
+  "latitude": 55.86644510000001,
+  "longitude": -4.264099499999999,
+  "distance": 0.6521819450406601,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fde"
+  },
+  "refuge_id": 4533,
+  "name": "CCA",
+  "street": "350 Sauchiehall Street",
+  "city": "Glasgow",
+  "country": "UK",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "",
+  "latitude": 55.86603239999999,
+  "longitude": -4.2661907,
+  "distance": 0.7067367763158215,
+  "votes": 0,
+  "comment_count": 0
+},
+{
+  "_id": {
+    "$oid": "65dc9862030140170e867fdf"
+  },
+  "refuge_id": 27529,
+  "name": "Glasgow Disability benefits centre",
+  "street": "Argyle Street",
+  "city": "Glasgow",
+  "country": "GB",
+  "unisex": true,
+  "changing_table": false,
+  "accessible": true,
+  "comment": "Available for patients/claiments and family who have an appointment.",
+  "latitude": 55.8615095,
+  "longitude": -4.2737487,
+  "distance": 0.9146428725766511,
+  "votes": 0,
+  "comment_count": 0
+}]

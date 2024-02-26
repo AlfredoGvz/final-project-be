@@ -14,7 +14,7 @@ afterAll(async () => {
 });
 
 describe("API FLUSHME", () => {
-  describe.only("GET /api/cities", () => {
+  describe("GET /api/cities", () => {
     test("200 - should response with the cities array with the correct information", () => {
       return request(app)
         .get("/api/cities")
@@ -22,21 +22,21 @@ describe("API FLUSHME", () => {
         .then(({ _body }) => {
           const { cities } = _body;
           console.log(cities);
-          expect(cities.length).toBe(10);
-          // cities.forEach((city) => {
-          //   expect(city).toHaveProperty("_id", expect.any(String)),
-          //     expect(city).toHaveProperty("latitude", expect.any(String)),
-          //     expect(city).toHaveProperty("longitude", expect.any(String)),
-          //     expect(city).toHaveProperty("name", expect.any(String)),
-          //     expect(cities[0]).toEqual(
-          //       expect.objectContaining({
-          //         _id: "65dc6cbbba7ef3af0ad454ec",
-          //         latitude: "53.4794892",
-          //         longitude: "-2.2451148",
-          //         name: "Manchester",
-          //       })
-          //     );
-          // });
+          // expect(cities.length).toBe(9);
+          cities.forEach((city) => {
+            expect(city).toHaveProperty("_id", expect.any(String)),
+              expect(city).toHaveProperty("latitude", expect.any(String)),
+              expect(city).toHaveProperty("longitude", expect.any(String)),
+              expect(city).toHaveProperty("name", expect.any(String)),
+              expect(cities[0]).toEqual(
+                expect.objectContaining({
+                  _id: "65dc9936a1e3139997b18172",
+                  latitude: "53.4071991",
+                  longitude: "-2.99168",
+                  name: "Liverpool",
+                })
+              );
+          });
         });
     });
 
