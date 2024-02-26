@@ -1,15 +1,11 @@
-const { client, connectToMongoDB, ENV } = require("../connection");
+const { client, connectToMongoDB, database } = require("../connection");
 const { ObjectId } = require("mongodb");
 
-// console.log(ENV, 'im in the model')
-
-// if (ENV === development )
-// {const db = client.db("development");}
-
+console.log(database, "I the database am in the model");
 async function getCities() {
   try {
     await connectToMongoDB();
-    const db = client.db("development");
+    const db = client.db(database);
     const data = await db.collection("cities").find().toArray();
     return data;
   } catch (error) {
@@ -40,7 +36,7 @@ async function getCityToilets(city_name, queries) {
   console.log(toiletFilterCriteria);
 
   await connectToMongoDB();
-  const db = client.db("development");
+  const db = client.db(database);
   const toiletsCollection = db.collection("toilets");
   const toilet = await toiletsCollection.find(toiletFilterCriteria).toArray();
   const cityCollection = db.collection("cities");
@@ -67,7 +63,7 @@ async function updateCityToilets(toilet_id, inc_vote) {
   //2- To be able to find item by id in params, we gonna need to create an instance of ObjectId by using new ObjectId and passing in the id in the params.
   try {
     await connectToMongoDB();
-    const db = client.db("development");
+    const db = client.db(database);
     const toiletsCollection = db.collection("toilets");
     const itemId = { _id: new ObjectId(toilet_id) };
     const update = { $inc: { votes: inc_vote } };

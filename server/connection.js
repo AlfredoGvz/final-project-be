@@ -4,6 +4,7 @@ console.log(ENV, "<<<< the current ENV");
 require("dotenv").config({
   path: `${__dirname}/../.env.${ENV}`,
 });
+let database;
 
 const uri = process.env.MONGODB_URI;
 
@@ -20,8 +21,15 @@ async function connectToMongoDB() {
   }
 }
 
+if (ENV === "development") {
+  database = "development";
+} else if (ENV === "test") {
+  database = "testDatabase";
+}
+
 // Export the connected client and the function to establish connection
 module.exports = {
   client,
   connectToMongoDB,
+  database,
 };
