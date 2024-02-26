@@ -96,6 +96,17 @@ describe("API FLUSHME", () => {
     });
   });
 
+  describe("GET /api/:city_name/toilets?query=query_val", () => {
+    test("200- Returns a city object with toilets filtered by unisex property.", () => {
+      return request(app)
+        .get("/api/manchester/toilets?unisex=false")
+        .expect(200)
+        .then((response) => {
+          console.log(response.body, "in test");
+        });
+    });
+  });
+
   describe("PATCH /api/toilets/:toilet_id", () => {
     test("201 Successful patch to the database", () => {
       return request(app)
