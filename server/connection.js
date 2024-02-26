@@ -24,4 +24,5 @@ async function connectToMongoDB() {
 module.exports = {
   client,
   connectToMongoDB,
+  ENV,
 };

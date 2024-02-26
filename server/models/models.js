@@ -1,15 +1,17 @@
 const { client, connectToMongoDB, ENV } = require("../connection");
 const { ObjectId } = require("mongodb");
+let database;
+if (ENV === "development") {
+  database = "development";
+} else if (ENV === "test") {
+  database = "test";
+}
 
-// console.log(ENV, 'im in the model')
-
-// if (ENV === development )
-// {const db = client.db("development");}
-
+console.log(database, "I the database am in the model");
 async function getCities() {
   try {
     await connectToMongoDB();
-    const db = client.db("development");
+    const db = client.db("testDatabase");
     const data = await db.collection("cities").find().toArray();
     return data;
   } catch (error) {
