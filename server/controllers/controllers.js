@@ -2,6 +2,7 @@ const {
   getCities,
   getCityToilets,
   updateCityToilets,
+  getReviewsById,
 } = require("../models/models");
 
 function fetchingCities(request, response, next) {
@@ -38,8 +39,17 @@ function patchingCityToilets(request, response, next) {
     response.status(201).send({ data: data });
   });
 }
+
+function fetchReviewsById(request, response, next) {
+  const { toilet_id } = request.params;
+  console.log(toilet_id, "<<< the toilet_id in the controller");
+  getReviewsById(toilet_id).then((data) => {
+    response.status(200).send({ reviews: data });
+  });
+}
 module.exports = {
   fetchingCities,
   fetchingCityToilets,
   patchingCityToilets,
+  fetchReviewsById,
 };

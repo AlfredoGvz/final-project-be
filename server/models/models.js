@@ -79,8 +79,23 @@ async function updateCityToilets(toilet_id, inc_vote) {
     client.close();
   }
 }
+
+async function getReviewsById(id) {
+  try {
+    await connectToMongoDB();
+    const db = client.db("development");
+    const reviewsCollection = db.collection("reviews");
+    console.log(id, "<<<successfully getting parasm through");
+    const reviews = await reviewsCollection.find({ toilet_id: id }).toArray();
+    console.log(reviews, "<<< all the reviews in the model");
+    return reviews;
+  } catch (err) {
+    console.log(err, "<<< err in the model block");
+  }
+}
 module.exports = {
   getCities,
   getCityToilets,
   updateCityToilets,
+  getReviewsById,
 };

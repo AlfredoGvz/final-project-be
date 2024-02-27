@@ -9,6 +9,9 @@ beforeAll(async () => {
   console.log(`Connected to : ${client.options.dbName}`);
   // await seedTestData(); // Seed test data
 });
+beforeEach(async () => {
+  await seed();
+});
 
 afterAll(async () => {
   await client.close(); // Close the MongoDB connection
@@ -23,7 +26,6 @@ describe("API FLUSHME", () => {
         .then(({ _body }) => {
           const { cities } = _body;
           console.log(cities);
-          // expect(cities.length).toBe(9);
           cities.forEach((city) => {
             expect(city).toHaveProperty("_id", expect.any(String)),
               expect(city).toHaveProperty("latitude", expect.any(String)),
@@ -62,7 +64,7 @@ describe("API FLUSHME", () => {
   });
 
   describe("GET /api/:city_name/toilets", () => {
-    test("200- Returns an aray with information.", () => {
+    test.only("200- Returns an aray with information.", () => {
       return request(app)
         .get("/api/manchester/toilets")
         .then(({ _body }) => {
@@ -106,6 +108,33 @@ describe("API FLUSHME", () => {
         .patch(`/api/toilets/65d872561c711aa554e78195`)
         .send({ inc_votes: -30 })
         .then();
+    });
+  });
+  describe("GET /api/reviews/:toilet_id", () => {
+    test.only("200 should return all reviews for the specific toilet_id", () => {
+      return request(app)
+        .get(`/api/reviews/65dc718934d18479d71de6e6`)
+        .expect(200)
+        .then((response) => {
+          const { reviews } = response.body;
+          expect(reviews.length).toBe(3);
+          expect(reviews[0]).toEqual(
+            expect.objectContaining({
+              toilet_id: "65dc718934d18479d71de6e6",
+              comment: "Could use more frequent cleaning.",
+            })
+          );
+        });
+    });
+    test.only("200 should return an empty array if there are no reviews for a toilet", () => {
+      return request(app)
+        .get(`/api/reviews/65dc718934d18479d71de6e5`)
+        .expect(200)
+        .then((response) => {
+          console.log(response.body, "<<< response body in the testin suite");
+          const { reviews } = response.body;
+          expect(reviews.length).toBe(0);
+        });
     });
   });
 });
