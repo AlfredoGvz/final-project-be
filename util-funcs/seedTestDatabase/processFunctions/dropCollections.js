@@ -9,6 +9,10 @@ async function dropCollections() {
       console.log(`${collection.collectionName} collection dropped`);
       await collection.deleteMany({});
     }
+    // const collection = db.collection("cities");
+    // await collection.deleteMany({
+    //   name: { $nin: ["Liverpool", "Cardiff", "Glasgow", "Belfast"] },
+    // });
   } catch (error) {
   } finally {
     await client.close();

@@ -2,25 +2,23 @@ const dropCollections = require("./processFunctions/dropCollections");
 const insertIntoCities = require("./processFunctions/populateDbCities");
 const insertIntoReviews = require("./processFunctions/populateDbReviews");
 const insertIntoToilets = require("./processFunctions/populateDbToilets");
+const getOriginalData = require("./processFunctions/captureOriginalData");
 
-const seed = dropCollections()
-  .then(() => {
+async function seed() {
+  try {
+    await getOriginalData();
+    console.log("collections have been dropped");
+    await dropCollections();
     console.log("toilets collection seeded");
-    return insertIntoCities();
-  })
-  .then(() => {
+    await insertIntoCities();
     console.log("reviews collection seeded");
-    return insertIntoReviews();
-  })
-  .then(() => {
+    await insertIntoReviews();
     console.log("toilets collection seeded");
-    return insertIntoToilets();
-  })
-  .then(() => {
+    await insertIntoToilets();
     console.log("Database seeding completed.");
-  })
-  .catch((error) => {
+  } catch (error) {
     console.error("Error while seeding database:", error);
-  });
+  }
+}
 
 module.exports = seed;
