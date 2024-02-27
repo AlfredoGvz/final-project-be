@@ -6,6 +6,7 @@ const {
   fetchingCityToilets,
   patchingCityToilets,
   fetchReviewsById,
+  postReviewById,
   // patchingCityToilets,
 } = require("./controllers/controllers");
 
@@ -17,6 +18,9 @@ app.get("/api/:city_name/toilets", fetchingCityToilets); //add property comments
 
 app.patch("/api/toilets/:toilet_id", patchingCityToilets);
 app.get("/api/reviews/:toilet_id", fetchReviewsById);
+
+app.post("/api/review/:toilet_id", postReviewById);
+
 app.use((err, req, res, next) => {
   if (err.status === 404 && err.msg === "City not found") {
     res.status(404).send({ msg: "City not found" });

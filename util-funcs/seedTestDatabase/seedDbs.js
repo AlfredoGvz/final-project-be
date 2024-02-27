@@ -7,13 +7,13 @@ const getOriginalData = require("./processFunctions/captureOriginalData");
 async function seed() {
   try {
     await getOriginalData();
-    console.log("collections have been dropped");
+    // console.log("collections have been dropped");
     await dropCollections();
-    console.log("toilets collection seeded");
+    // console.log("toilets collection seeded");
     await insertIntoCities();
-    console.log("reviews collection seeded");
+    // console.log("reviews collection seeded");
     await insertIntoReviews();
-    console.log("toilets collection seeded");
+    // console.log("toilets collection seeded");
     await insertIntoToilets();
     console.log("Database seeding completed.");
   } catch (error) {
