@@ -6,13 +6,12 @@ async function populateDbReview() {
   try {
     await connectToMongoDB();
     const db = client.db("testDatabase");
-    for (const review of reviewsData) {
-      await db.collection("reviews").insertOne({
-        _id: new ObjectId(review._id),
-        toilet_id: review.toilet_id,
-        comment: review.comment,
-      });
-    }
+    const jsonToInsert = reviewsData.map((review) => ({
+      _id: new ObjectId(review._id),
+      toilet_id: review.toilet_id,
+      comment: review.comment,
+    }));
+    await db.collection("reviews").insertMany(jsonToInsert);
   } catch (error) {
   } finally {
     await client.close();

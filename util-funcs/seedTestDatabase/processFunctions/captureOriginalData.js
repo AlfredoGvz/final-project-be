@@ -11,6 +11,7 @@ async function getAllOriginalInfo() {
       const document = await collection.find({}).toArray();
       const jsonFileName = path.join(
         __dirname,
+        "../originalDbsData",
         `${collection.collectionName}_original_data.json`
       );
       const jsonData = JSON.stringify(document);
@@ -21,4 +22,5 @@ async function getAllOriginalInfo() {
     await client.close();
   }
 }
-module.exports = getAllOriginalInfo();
+
+module.exports = getAllOriginalInfo;
