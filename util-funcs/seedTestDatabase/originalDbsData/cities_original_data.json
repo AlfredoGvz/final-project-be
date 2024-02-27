@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "65dc9936a1e3139997b18172",
+    "latitude": "53.4071991",
+    "longitude": "-2.99168",
+    "name": "Liverpool"
+  },
+  {
+    "_id": "65dc9936a1e3139997b18173",
+    "latitude": "53.7974185",
+    "longitude": "-1.5437941",
+    "name": "Leeds"
+  },
+  {
+    "_id": "65dc9936a1e3139997b18174",
+    "latitude": "52.4081812",
+    "longitude": "-1.510477",
+    "name": "Coventry"
+  },
+  {
+    "_id": "65dc9936a1e3139997b18175",
+    "latitude": "51.4816546",
+    "longitude": "-3.1791934",
+    "name": "Cardiff"
+  },
+  {
+    "_id": "65dc9936a1e3139997b18176",
+    "latitude": "51.4538022",
+    "longitude": "-2.5972985",
+    "name": "Bristol"
+  },
+  {
+    "_id": "65dc9936a1e3139997b18177",
+    "latitude": "53.3806626",
+    "longitude": "-1.4702278",
+    "name": "Sheffield"
+  },
+  {
+    "_id": "65dc9936a1e3139997b18178",
+    "latitude": "53.9590555",
+    "longitude": "-1.0815361",
+    "name": "York"
+  },
+  {
+    "_id": "65dc9936a1e3139997b18179",
+    "latitude": "54.596391",
+    "longitude": "-5.9301829",
+    "name": "Belfast"
+  },
+  {
+    "_id": "65dc9936a1e3139997b1817a",
+    "latitude": "55.861155",
+    "longitude": "-4.2501687",
+    "name": "Glasgow"
+  }
+]
