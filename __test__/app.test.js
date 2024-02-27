@@ -9,9 +9,9 @@ beforeAll(async () => {
   console.log(`Connected to : ${client.options.dbName}`);
   // await seedTestData(); // Seed test data
 });
-// beforeEach(async () => {
-//   await seed();
-// });
+beforeEach(async () => {
+  await seed();
+});
 
 afterAll(async () => {
   await client.close(); // Close the MongoDB connection
@@ -145,18 +145,19 @@ describe("API FLUSHME", () => {
         .then();
     });
   });
-  describe.skip("GET /api/reviews/:toilet_id", () => {
+  describe("GET /api/reviews/:toilet_id", () => {
     test("200 should return all reviews for the specific toilet_id", () => {
       return request(app)
-        .get(`/api/reviews/65dc718934d18479d71de6e6`)
+        .get(`/api/reviews/65dc718934d18479d71de6e2`)
         .expect(200)
         .then((response) => {
+          console.log(response._body, "get reviews from test line 155");
+
           const { reviews } = response.body;
-          expect(reviews.length).toBe(3);
           expect(reviews[0]).toEqual(
             expect.objectContaining({
-              toilet_id: "65dc718934d18479d71de6e6",
-              comment: "Could use more frequent cleaning.",
+              toilet_id: "65dc718934d18479d71de6e2",
+              comment: "Great facilities, very clean!",
             })
           );
         });
@@ -173,10 +174,10 @@ describe("API FLUSHME", () => {
     });
   });
   describe("POST /api/review/:toilet_id", () => {
-    test.only("Should return all reviews for the specific toilet_id", () => {
+    test.only("Should return all reviews for the specific toilet_id", async () => {
       const testReview = {
-        toilet_id: "65dc718934d18479d71de6e6",
-        review: "I AM ONLY A TEST REVIEW 9999",
+        toilet_id: "65dc9862030140170e867eff",
+        review: "Bananas!",
       };
       return request(app)
         .post(`/api/review/${testReview.toilet_id}`)
@@ -186,9 +187,29 @@ describe("API FLUSHME", () => {
           const { posted } = response.body;
           console.log(posted, "<<< the response in the test");
           expect(posted).toEqual({
-            toilet_id: testReview.toilet_id,
-            review: testReview.review,
-            _id: expect.any(String),
+            results: {
+              _id: "65dc9862030140170e867eff",
+              refuge_id: 4182,
+              name: "Barburrito Liverpool 1",
+              street: "Liverpool 1 shopping area",
+              city: "Liverpool",
+              country: "UK",
+              unisex: true,
+              changing_table: false,
+              accessible: false,
+              comment: null,
+              latitude: 53.4083714,
+              longitude: -2.9915726,
+              distance: 0.08111880563522755,
+              votes: 0,
+              comment_count: expect.any(Number),
+            },
+            review: {
+              toilet_id: "65dc9862030140170e867eff",
+              review: "Bananas!",
+              created_at: expect.any(String),
+              _id: expect.any(String),
+            },
           });
         });
     });

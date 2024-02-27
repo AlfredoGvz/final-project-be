@@ -83,7 +83,7 @@ async function updateCityToilets(toilet_id, inc_vote) {
 async function getReviewsById(id) {
   try {
     await connectToMongoDB();
-    const db = client.db("development");
+    const db = client.db(database);
     const reviewsCollection = db.collection("reviews");
     // console.log(id, "<<<successfully getting parasm through");
     const reviews = await reviewsCollection.find({ toilet_id: id }).toArray();
@@ -97,16 +97,27 @@ async function getReviewsById(id) {
 async function insertReviewById(toilet_id, review) {
   try {
     await connectToMongoDB();
-    const db = client.db("development");
+    const db = client.db(database);
     const reviewsCollection = await db.collection("reviews");
-    console.log(toilet_id, "<<<toilet id in the model");
-    console.log(review, "<<< the comment in the model");
+    // console.log(toilet_id, "<<<toilet id in the model");
+    // console.log(review, "<<< the comment in the model");
     const formattedReview = {
       toilet_id: toilet_id,
       review: review,
+      created_at: new Date(),
     };
+
     await reviewsCollection.insertOne(formattedReview);
-    return formattedReview;
+    // await db.collection('reviews').find({toilet_id: toilet_id}).
+
+    const toiletsCollection = db.collection("toilets");
+    const itemId = { _id: new ObjectId(toilet_id) };
+    const update = { $inc: { comment_count: 1 } };
+
+    const result = await toiletsCollection.findOneAndUpdate(itemId, update, {
+      returnDocument: "after",
+    });
+    return { results: result, review: formattedReview };
   } catch (err) {
     console.log(err, "<<< err in the model block");
   }
