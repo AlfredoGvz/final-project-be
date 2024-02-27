@@ -2,6 +2,7 @@ const app = require("../server/app");
 const request = require("supertest");
 const { client, connectToMongoDB, ENV } = require("../server/connection");
 // const seedTestData = require("../util-funcs/seed-test-data");
+const seed = require("../util-funcs/seedTestDatabase/seedDbs");
 
 beforeAll(async () => {
   await connectToMongoDB(); // Connect to the MongoDB server
