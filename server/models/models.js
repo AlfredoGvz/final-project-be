@@ -85,10 +85,28 @@ async function getReviewsById(id) {
     await connectToMongoDB();
     const db = client.db("development");
     const reviewsCollection = db.collection("reviews");
-    console.log(id, "<<<successfully getting parasm through");
+    // console.log(id, "<<<successfully getting parasm through");
     const reviews = await reviewsCollection.find({ toilet_id: id }).toArray();
-    console.log(reviews, "<<< all the reviews in the model");
+    // console.log(reviews, "<<< all the reviews in the model");
     return reviews;
+  } catch (err) {
+    console.log(err, "<<< err in the model block");
+  }
+}
+
+async function insertReviewById(toilet_id, review) {
+  try {
+    await connectToMongoDB();
+    const db = client.db("development");
+    const reviewsCollection = await db.collection("reviews");
+    console.log(toilet_id, "<<<toilet id in the model");
+    console.log(review, "<<< the comment in the model");
+    const formattedReview = {
+      toilet_id: toilet_id,
+      review: review,
+    };
+    await reviewsCollection.insertOne(formattedReview);
+    return formattedReview;
   } catch (err) {
     console.log(err, "<<< err in the model block");
   }
@@ -98,4 +116,5 @@ module.exports = {
   getCityToilets,
   updateCityToilets,
   getReviewsById,
+  insertReviewById,
 };

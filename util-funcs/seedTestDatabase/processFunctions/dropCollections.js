@@ -6,8 +6,9 @@ async function dropCollections() {
     const db = client.db("testDatabase");
     const collections = await db.collections();
     for (const collection of collections) {
-      console.log(`${collection.collectionName} collection dropped`);
+      // console.log(`${collection.collectionName} collection dropped`);
       await collection.deleteMany({});
+      console.log(`All collections dropped`);
     }
     // const collection = db.collection("cities");
     // await collection.deleteMany({
