@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "65dca709f407f3eaab64d0be",
+    "toilet_id": "65dc718934d18479d71de6e2",
+    "comment": "Great facilities, very clean!"
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0bf",
+    "toilet_id": "65dc718934d18479d71de6e2",
+    "comment": "The toilet paper ran out quickly."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0c0",
+    "toilet_id": "65dc718934d18479d71de6e2",
+    "comment": "Needs better ventilation."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0c1",
+    "toilet_id": "65dc718934d18479d71de6e2",
+    "comment": "Spacious and well-lit."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0c2",
+    "toilet_id": "65dc718934d18479d71de6e2",
+    "comment": "The hand dryer was broken."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0c3",
+    "toilet_id": "65dc718934d18479d71de6e2",
+    "comment": "Could use some air freshener."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0c4",
+    "toilet_id": "65dc718934d18479d71de6e2",
+    "comment": "Convenient location, but often busy."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0c5",
+    "toilet_id": "65dc718934d18479d71de6e2",
+    "comment": "Cleanliness could be improved."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0c6",
+    "toilet_id": "65dc718934d18479d71de6e3",
+    "comment": "Average facilities, nothing special."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0c7",
+    "toilet_id": "65dc718934d18479d71de6e3",
+    "comment": "Toilet seat was loose."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0c8",
+    "toilet_id": "65dc718934d18479d71de6e3",
+    "comment": "No soap available."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0c9",
+    "toilet_id": "65dc718934d18479d71de6e3",
+    "comment": "Limited privacy in the stalls."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0ca",
+    "toilet_id": "65dc718934d18479d71de6e3",
+    "comment": "Smelled strongly of bleach."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0cb",
+    "toilet_id": "65dc718934d18479d71de6e3",
+    "comment": "Signage could be clearer."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0cc",
+    "toilet_id": "65dc718934d18479d71de6e4",
+    "comment": "Best toilet I've ever used!"
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0cd",
+    "toilet_id": "65dc718934d18479d71de6e4",
+    "comment": "Accessible for people with disabilities."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0ce",
+    "toilet_id": "65dc718934d18479d71de6e4",
+    "comment": "Very clean and well-maintained."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0cf",
+    "toilet_id": "65dc718934d18479d71de6e6",
+    "comment": "Could use more frequent cleaning."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0d0",
+    "toilet_id": "65dc718934d18479d71de6e6",
+    "comment": "Not enough toilet paper stocked."
+  },
+  {
+    "_id": "65dca709f407f3eaab64d0d1",
+    "toilet_id": "65dc718934d18479d71de6e6",
+    "comment": "The door lock was broken."
+  }
+]
