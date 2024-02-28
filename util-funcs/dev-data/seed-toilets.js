@@ -1,7 +1,7 @@
-const { client, connectToMongoDB, ENV } = require("../server/connection");
-const jsonData = require('../data/test-data/toilets.json');
+const { client, connectToMongoDB, ENV } = require("../../server/connection");
+const jsonData = require('../../data/test-data/toilets.json');
 
-async function seedDevData() {
+async function seedDevToiletData() {
   try {
     
     await connectToMongoDB()
@@ -36,7 +36,7 @@ async function seedDevData() {
     console.error('Error:', error.message);
   }
 }
-seedDevData()
+seedDevToiletData()
 
 module.exports = seedDevData
 

@@ -89,6 +89,7 @@ async function getReviewsById(id) {
     const db = client.db(database);
     const reviewsCollection = db.collection("reviews");
     const reviews = await reviewsCollection.find({ toilet_id: id }).toArray();
+    console.log(reviews, 'reviews in the model with time?');
     return reviews;
   } catch (err) {
     console.log(err, "<<< err in the model block");

@@ -1,5 +1,5 @@
 const fs = require("fs").promises
-const findToilets = require('./find-toilets')
+const findToilets = require('../dev-data/find-toilets')
 
 async function createTestData() {
   try {
