@@ -1,5 +1,6 @@
 const { client, connectToMongoDB, database } = require("../connection");
 const { ObjectId } = require("mongodb");
+const fs = require("fs").promises;
 
 async function getCities() {
   try {
@@ -97,7 +98,6 @@ async function getReviewsById(id) {
 }
 
 async function insertReviewById(toilet_id, review) {
-  console.log(toilet_id, "in model");
   if (review === undefined || review === "") {
     return Promise.reject("Cannot post an empty review.");
   } else if (toilet_id === undefined || toilet_id === "") {
@@ -116,7 +116,6 @@ async function insertReviewById(toilet_id, review) {
     };
 
     await reviewsCollection.insertOne(formattedReview);
-    // await db.collection('reviews').find({toilet_id: toilet_id}).
 
     const toiletsCollection = db.collection("toilets");
     const itemId = { _id: new ObjectId(toilet_id) };
@@ -128,15 +127,23 @@ async function insertReviewById(toilet_id, review) {
     if (result === null) {
       return Promise.reject("No toilet to review.");
     }
-    // return { results: result, review: formattedReview };
+    return { results: result, review: formattedReview };
   } catch (err) {
     console.log(err, "<<< err in the model block");
   }
 }
+
+function getEndpoints() {
+  return fs.readFile("endpoints.json", "utf-8").then((info) => {
+    return JSON.parse(info);
+  });
+}
+
 module.exports = {
   getCities,
   getCityToilets,
   updateCityToilets,
   getReviewsById,
   insertReviewById,
+  getEndpoints
 };

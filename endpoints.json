@@ -1,0 +1,134 @@
+{
+  "GET /api": {
+    "description": "Serves up a json representation of the available endpoints of the api"
+  },
+  "GET /api/cities": {
+    "description": "Serves an array of all the available cities in the api",
+    "queries": "Currently no queries needed for this endpoint",
+    "exampleResponse": {
+      "cities": [
+        {
+          "_id": "65dc6cbbba7ef3af0ad454ec",
+          "latitude": "53.4794892",
+          "longitude": "-2.2451148",
+          "name": "Manchester"
+        },
+
+        {
+          "_id": "65dc6cbbba7ef3af0ad454f4",
+          "latitude": "54.596391",
+          "longitude": "-5.9301829",
+          "name": "Belfast"
+        },
+        {
+          "_id": "65dc6cbbba7ef3af0ad454f5",
+          "latitude": "55.861155",
+          "longitude": "-4.2501687",
+          "name": "Glasgow"
+        }
+      ]
+    }
+  },
+  "GET /api/:city_name/toilets": {
+    "description": "Serves an array of a city and its toilets where you can filter down toilets list",
+    "queries": ["unisex", "changing_table", "accessible"],
+    "querieValues": "true/false",
+    "exampleResponse": {
+      "cityToilets": [
+        {
+          "_id": "65dc6cbbba7ef3af0ad454ec",
+          "latitude": "53.4794892",
+          "longitude": "-2.2451148",
+          "name": "Manchester",
+          "toilets": [
+            {
+              "_id": "65dc718934d18479d71de6d1",
+              "refuge_id": 53403,
+              "name": "HOME Manchester",
+              "street": "2 Tony Wilson Place",
+              "city": "Manchester",
+              "country": "GB",
+              "unisex": false,
+              "changing_table": false,
+              "accessible": false,
+              "comment": "Toilets in the downstairs bar are gender neutral, one set with stalls and urinals and one set with just stalls.",
+              "latitude": 53.4736194,
+              "longitude": -2.2465788,
+              "distance": 0.4100077221650142,
+              "votes": 0,
+              "comment_count": 0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "GET /api/reviews/:toilet_id": {
+    "description": "Serves an array of reviews associated with a particular toilet.",
+    "queries": "Currently no queries needed for this endpoint",
+    "exampleResponse": {
+      "reviews": [
+        {
+          "_id": "65df3333b1b70f58aa057dc3",
+          "toilet_id": "65dc718934d18479d71de6ba",
+          "review": "The smell of jasmin was a nice touch",
+          "created_at": "2024-02-28T13:20:51.329Z"
+        }
+      ]
+    }
+  },
+  "PATCH /api/toilets/:toilet_id": {
+    "description": "Upon sending request, when succesful, returns toilet with updated votes",
+    "queries": "Currently no queries needed for this endpoint",
+    "exampleResponse": {
+      "data": {
+        "_id": "65dc718934d18479d71de6e3",
+        "refuge_id": 15965,
+        "name": "Liverpool Guild Sphinx Bar",
+        "street": "160 Mount Pleasant",
+        "city": "Liverpool",
+        "country": "GB",
+        "unisex": true,
+        "changing_table": false,
+        "accessible": true,
+        "comment": "Should be able to use regardless, many students go in and out without paying for anything",
+        "latitude": 53.4050214,
+        "longitude": -2.9658354,
+        "distance": 1.075100618056547,
+        "votes": -30,
+        "comment_count": 0
+      }
+    }
+  },
+  "POST /api/review/:toilet_id": {
+    "description": "Upon sending request, when succesful, returns toilet with updated review list.",
+    "queries": "Currently no queries needed for this endpoint",
+    "exampleResponse": {
+      "posted": {
+        "results": {
+          "_id": "65dc718934d18479d71de6e3",
+          "refuge_id": 15965,
+          "name": "Liverpool Guild Sphinx Bar",
+          "street": "160 Mount Pleasant",
+          "city": "Liverpool",
+          "country": "GB",
+          "unisex": true,
+          "changing_table": false,
+          "accessible": true,
+          "comment": "Should be able to use regardless, many students go in and out without paying for anything",
+          "latitude": 53.4050214,
+          "longitude": -2.9658354,
+          "distance": 1.075100618056547,
+          "votes": 0,
+          "comment_count": 1
+        },
+        "review": {
+          "toilet_id": "65dc718934d18479d71de6e3",
+          "review": "Ran out of toilet paper quite a often",
+          "created_at": "2024-02-28T14:14:17.271Z",
+          "_id": "65df3fb955ca5d4c67f16435"
+        }
+      }
+    }
+  }
+}
