@@ -1,5 +1,5 @@
-const Toilet = require('../data/schema/toilet-schema');
-const client = require('../server/connection');
+const Toilet = require('../../data/schema/toilet-schema');
+const client = require('../../server/connection');
 const findToilets = require('../util-funcs/find-toilets');
 
 async function patchToilets() {

@@ -7,19 +7,21 @@ const {
   patchingCityToilets,
   fetchReviewsById,
   postReviewById,
-  // patchingCityToilets,
+  fetchingEndpoints
 } = require("./controllers/controllers");
+
 
 app.get("/api/cities", fetchingCities);
 
-app.get("/api/:city_name/toilets", fetchingCityToilets); //add property comments number and rating number
-
-// app.get("/api/toilets/:toilet_id", patchingCityToilets);
+app.get("/api/:city_name/toilets", fetchingCityToilets); 
 
 app.patch("/api/toilets/:toilet_id", patchingCityToilets);
+
 app.get("/api/reviews/:toilet_id", fetchReviewsById);
 
 app.post("/api/review/:toilet_id", postReviewById);
+
+app.get("/api", fetchingEndpoints);
 
 app.use((err, req, res, next) => {
   if (err.status === 404 && err.msg === "City not found") {
@@ -27,12 +29,6 @@ app.use((err, req, res, next) => {
   }
 });
 
-// client.connect().then(() => {
-//   console.log(`Connected to MongoDB database: ${client.s.options.dbName}`);
-// })
-// .then(() => {
-//   client.close()
-//   console.log('Client closed successfully');
-// });
+
 
 module.exports = app;

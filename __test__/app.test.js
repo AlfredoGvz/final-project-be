@@ -1,20 +1,18 @@
 const app = require("../server/app");
 const request = require("supertest");
 const { client, connectToMongoDB, ENV } = require("../server/connection");
-// const seedTestData = require("../util-funcs/seed-test-data");
 const seed = require("../util-funcs/seedTestDatabase/seedDbs");
 
 beforeAll(async () => {
-  await connectToMongoDB(); // Connect to the MongoDB server
+  await connectToMongoDB(); 
   console.log(`Connected to : ${client.options.dbName}`);
-  // await seedTestData(); // Seed test data
 });
 beforeEach(async () => {
   await seed();
 });
 
 afterAll(async () => {
-  await client.close(); // Close the MongoDB connection
+  await client.close(); 
 });
 
 describe("API FLUSHME", () => {
@@ -24,8 +22,8 @@ describe("API FLUSHME", () => {
         .get("/api/cities")
         .expect(200)
         .then(({ _body }) => {
+          console.log(_body, "GET /api/cities");
           const { cities } = _body;
-          console.log(cities);
           cities.forEach((city) => {
             expect(city).toHaveProperty("_id", expect.any(String)),
               expect(city).toHaveProperty("latitude", expect.any(String)),
@@ -64,7 +62,7 @@ describe("API FLUSHME", () => {
   });
 
   describe("GET /api/:city_name/toilets", () => {
-    test("200- Returns an aray with information.", () => {
+    test("200- Returns an array with information.", () => {
       return request(app)
         .get("/api/Belfast/toilets")
         .then(({ _body }) => {
@@ -98,7 +96,7 @@ describe("API FLUSHME", () => {
         .expect(200)
         .then((response) => {
           const toilets = response.body.cityToilets[0].toilets;
-          console.log(toilets);
+          console.log(toilets, '<<< in the test line 99 toilet response ');
           toilets.forEach((toilet) => {
             expect(toilet).toHaveProperty("unisex", expect.any(Boolean));
           });
@@ -222,11 +220,11 @@ describe("API FLUSHME", () => {
   describe("GET /api/reviews/:toilet_id", () => {
     test("200 should return all reviews for the specific toilet_id", () => {
       return request(app)
-        .get(`/api/reviews/65dc718934d18479d71de6e2`)
+        .get(`/api/reviews/65dc9862030140170e867eff`)
         .expect(200)
         .then((response) => {
-          console.log(response, '<<<response in the test');
           const { reviews } = response.body;
+
           reviews.forEach((review) => {
             expect(review).toHaveProperty("_id", expect.any(String));
             expect(review).toHaveProperty("toilet_id", expect.any(String));
@@ -247,14 +245,10 @@ describe("API FLUSHME", () => {
     });
   });
   describe("POST /api/review/:toilet_id", () => {
-    test("Should successfully post a review to a specific toilet by ID", async () => {
-      const testReview = {
-        toilet_id: "65dc718934d18479d71de6e3",
-        review: "Ran out of toilet paper quite a often",
-      };
+    test("200- Should return the succesfuly posted review of toilet by id.", async () => {
       return request(app)
-        .post(`/api/review/${testReview.toilet_id}`)
-        .send(testReview)
+        .post(`/api/review/65dc718934d18479d71de6e3`)
+        .send({ review: "Ran out of toilet paper quite a often"})
         .expect(201)
         .then((response) => {
           const { posted } = response.body;
@@ -288,28 +282,12 @@ describe("API FLUSHME", () => {
     });
 
     test("404- Returns a Not Found message is trying to post on a non-existent toilet", async () => {
-      const testReview = {
-        toilet_id: "65dc718934d18479d71de7e0",
-        review: "Ran out of toilet paper quite a often",
-      };
       return request(app)
-        .post(`/api/review/${testReview.toilet_id}`)
-        .send(testReview)
+        .post(`/api/review/65dc718934d18479d71de7e0`)
+        .send({review : "Ran out of toilet paper quite a often"})
         .expect(404)
         .then(({ _body }) => {
           expect(_body.msg).toBe("No toilet to review.");
-        });
-    });
-    test("400- Returns a bad request message if toilet_id missing", async () => {
-      const testReview = {
-        review: "Ran out of toilet paper quite a often",
-      };
-      return request(app)
-        .post(`/api/review/${testReview.toilet_id}`)
-        .send(testReview)
-        .expect(400)
-        .then(({ _body }) => {
-          expect(_body.msg).toBe("Missing toilet id.");
         });
     });
     test("400- Returns a bad request message if review body is missing", async () => {

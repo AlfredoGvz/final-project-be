@@ -4,6 +4,7 @@ const {
   updateCityToilets,
   getReviewsById,
   insertReviewById,
+  getEndpoints
 } = require("../models/models");
 
 function fetchingCities(request, response, next) {
@@ -73,10 +74,17 @@ function postReviewById(request, response, next) {
       }
     });
 }
+function fetchingEndpoints(request, response, next) {
+  getEndpoints().then((data) => {
+    response.status(200).send({ endPoints: data });
+  });
+}
+
 module.exports = {
   fetchingCities,
   fetchingCityToilets,
   patchingCityToilets,
   fetchReviewsById,
   postReviewById,
+  fetchingEndpoints
 };
