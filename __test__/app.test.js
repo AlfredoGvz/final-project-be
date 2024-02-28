@@ -138,28 +138,71 @@ describe("API FLUSHME", () => {
   });
 
   describe("PATCH /api/toilets/:toilet_id", () => {
-    test("201 Successful patch to the database", () => {
+    test("201 Successful patch to the database taking away votes", () => {
       return request(app)
-        .patch(`/api/toilets/65d872561c711aa554e78195`)
+        .patch(`/api/toilets/65dc718934d18479d71de6e3`)
         .send({ inc_votes: -30 })
-        .then();
+        .then(({ body }) => {
+          expect(body.data).toEqual({
+            _id: "65dc718934d18479d71de6e3",
+            refuge_id: 15965,
+            name: "Liverpool Guild Sphinx Bar",
+            street: "160 Mount Pleasant",
+            city: "Liverpool",
+            country: "GB",
+            unisex: true,
+            changing_table: false,
+            accessible: true,
+            comment:
+              "Should be able to use regardless, many students go in and out without paying for anything",
+            latitude: 53.4050214,
+            longitude: -2.9658354,
+            distance: 1.075100618056547,
+            votes: -30,
+            comment_count: 0,
+          });
+        });
+    });
+
+    test("201 Successful patch to the database adding up votes", () => {
+      return request(app)
+        .patch(`/api/toilets/65dc718934d18479d71de6e3`)
+        .send({ inc_votes: 40 })
+        .then(({ body }) => {
+          expect(body.data).toEqual({
+            _id: "65dc718934d18479d71de6e3",
+            refuge_id: 15965,
+            name: "Liverpool Guild Sphinx Bar",
+            street: "160 Mount Pleasant",
+            city: "Liverpool",
+            country: "GB",
+            unisex: true,
+            changing_table: false,
+            accessible: true,
+            comment:
+              "Should be able to use regardless, many students go in and out without paying for anything",
+            latitude: 53.4050214,
+            longitude: -2.9658354,
+            distance: 1.075100618056547,
+            votes: 40,
+            comment_count: 0,
+          });
+        });
     });
   });
   describe("GET /api/reviews/:toilet_id", () => {
     test("200 should return all reviews for the specific toilet_id", () => {
       return request(app)
-        .get(`/api/reviews/65dc718934d18479d71de6e2`)
+        .get(`/api/reviews/65dc9862030140170e867eff`)
         .expect(200)
         .then((response) => {
-          console.log(response._body, "get reviews from test line 155");
-
           const { reviews } = response.body;
-          expect(reviews[0]).toEqual(
-            expect.objectContaining({
-              toilet_id: "65dc718934d18479d71de6e2",
-              comment: "Great facilities, very clean!",
-            })
-          );
+          reviews.forEach((review) => {
+            expect(review).toHaveProperty("_id", expect.any(String));
+            expect(review).toHaveProperty("toilet_id", expect.any(String));
+            expect(review).toHaveProperty("review", expect.any(String));
+            expect(review).toHaveProperty("created_at", expect.any(String));
+          });
         });
     });
     test("200 should return an empty array if there are no reviews for a toilet", () => {
@@ -174,10 +217,10 @@ describe("API FLUSHME", () => {
     });
   });
   describe("POST /api/review/:toilet_id", () => {
-    test.only("Should return all reviews for the specific toilet_id", async () => {
+    test("Should return all reviews for the specific toilet_id", async () => {
       const testReview = {
-        toilet_id: "65dc9862030140170e867eff",
-        review: "Bananas!",
+        toilet_id: "65dc718934d18479d71de6e3",
+        review: "Ran out of toilet paper quite a often",
       };
       return request(app)
         .post(`/api/review/${testReview.toilet_id}`)
@@ -188,25 +231,26 @@ describe("API FLUSHME", () => {
           console.log(posted, "<<< the response in the test");
           expect(posted).toEqual({
             results: {
-              _id: "65dc9862030140170e867eff",
-              refuge_id: 4182,
-              name: "Barburrito Liverpool 1",
-              street: "Liverpool 1 shopping area",
+              _id: "65dc718934d18479d71de6e3",
+              refuge_id: 15965,
+              name: "Liverpool Guild Sphinx Bar",
+              street: "160 Mount Pleasant",
               city: "Liverpool",
-              country: "UK",
+              country: "GB",
               unisex: true,
               changing_table: false,
-              accessible: false,
-              comment: null,
-              latitude: 53.4083714,
-              longitude: -2.9915726,
-              distance: 0.08111880563522755,
+              accessible: true,
+              comment:
+                "Should be able to use regardless, many students go in and out without paying for anything",
+              latitude: 53.4050214,
+              longitude: -2.9658354,
+              distance: 1.075100618056547,
               votes: 0,
               comment_count: expect.any(Number),
             },
             review: {
-              toilet_id: "65dc9862030140170e867eff",
-              review: "Bananas!",
+              toilet_id: "65dc718934d18479d71de6e3",
+              review: "Ran out of toilet paper quite a often",
               created_at: expect.any(String),
               _id: expect.any(String),
             },

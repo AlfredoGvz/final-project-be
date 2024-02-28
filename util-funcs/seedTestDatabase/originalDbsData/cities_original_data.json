@@ -1,1 +1,26 @@
-[{"_id":"65dc9936a1e3139997b18172","latitude":"53.4071991","longitude":"-2.99168","name":"Liverpool"},{"_id":"65dc9936a1e3139997b18175","latitude":"51.4816546","longitude":"-3.1791934","name":"Cardiff"},{"_id":"65dc9936a1e3139997b18179","latitude":"54.596391","longitude":"-5.9301829","name":"Belfast"},{"_id":"65dc9936a1e3139997b1817a","latitude":"55.861155","longitude":"-4.2501687","name":"Glasgow"}]
+[
+  {
+    "_id": "65dc9936a1e3139997b18172",
+    "latitude": "53.4071991",
+    "longitude": "-2.99168",
+    "name": "Liverpool"
+  },
+  {
+    "_id": "65dc9936a1e3139997b18175",
+    "latitude": "51.4816546",
+    "longitude": "-3.1791934",
+    "name": "Cardiff"
+  },
+  {
+    "_id": "65dc9936a1e3139997b18179",
+    "latitude": "54.596391",
+    "longitude": "-5.9301829",
+    "name": "Belfast"
+  },
+  {
+    "_id": "65dc9936a1e3139997b1817a",
+    "latitude": "55.861155",
+    "longitude": "-4.2501687",
+    "name": "Glasgow"
+  }
+]
