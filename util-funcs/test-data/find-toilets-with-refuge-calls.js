@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { cities } = require('../data/test-data/cities');
+const { cities } = require('../../data/test-data/cities');
 
 async function findToilets() {
     try {

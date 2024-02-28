@@ -1,13 +1,13 @@
-const jsonData = require("../data/test-data/toilets.json");
-const { client, connectToMongoDB, ENV } = require("../server/connection");
+const jsonData = require("../../data/test-data/toilets.json");
+const { client, connectToMongoDB, ENV } = require("../../server/connection");
 
-async function seedTestData() {
+async function seedToiletTestData() {
   try {
     await connectToMongoDB();
     const db = client.db("testDatabase");
 
     await db
-      .collection("testToilets")
+      .collection("toilets")
       .drop()
       .then(() => {
         console.log("db dropped");
@@ -42,4 +42,5 @@ async function seedTestData() {
 }
 seedTestData();
 
-module.exports = seedTestData;
+module.exports = seedToiletTestData;
+

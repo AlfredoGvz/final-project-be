@@ -222,9 +222,10 @@ describe("API FLUSHME", () => {
   describe("GET /api/reviews/:toilet_id", () => {
     test("200 should return all reviews for the specific toilet_id", () => {
       return request(app)
-        .get(`/api/reviews/65dc9862030140170e867eff`)
+        .get(`/api/reviews/65dc718934d18479d71de6e2`)
         .expect(200)
         .then((response) => {
+          console.log(response, '<<<response in the test');
           const { reviews } = response.body;
           reviews.forEach((review) => {
             expect(review).toHaveProperty("_id", expect.any(String));
@@ -246,7 +247,7 @@ describe("API FLUSHME", () => {
     });
   });
   describe("POST /api/review/:toilet_id", () => {
-    test("Should return all reviews for the specific toilet_id", async () => {
+    test("Should successfully post a review to a specific toilet by ID", async () => {
       const testReview = {
         toilet_id: "65dc718934d18479d71de6e3",
         review: "Ran out of toilet paper quite a often",
@@ -299,7 +300,7 @@ describe("API FLUSHME", () => {
           expect(_body.msg).toBe("No toilet to review.");
         });
     });
-    test.only("400- Returns a bad request message if toilet_id missing", async () => {
+    test("400- Returns a bad request message if toilet_id missing", async () => {
       const testReview = {
         review: "Ran out of toilet paper quite a often",
       };
