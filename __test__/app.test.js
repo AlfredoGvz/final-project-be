@@ -189,7 +189,36 @@ describe("API FLUSHME", () => {
           });
         });
     });
+    test("404- Trying patching a non-existing toilet document returns a not found message.", () => {
+      return request(app)
+        .patch(`/api/toilets/65dc718934d18479d71de6e9`)
+        .send({ inc_votes: 40 })
+        .expect(404)
+        .then(({ _body }) => {
+          expect(_body.msg).toBe("No toilet to vote on.");
+        });
+    });
+
+    test("400- If patch request does not include value to update, return a bad request message.", () => {
+      return request(app)
+        .patch(`/api/toilets/65dc718934d18479d71de6e3`)
+        .send()
+        .expect(400)
+        .then(({ _body }) => {
+          expect(_body.msg).toBe("Invalid vote value.");
+        });
+    });
+    test("400- If patch request does not include value to update, return a bad request message.", () => {
+      return request(app)
+        .patch(`/api/toilets/65dc718934d18479d71de6e3`)
+        .send({ inc_votes: "Bananas" })
+        .expect(400)
+        .then(({ _body }) => {
+          expect(_body.msg).toBe("Invalid vote value.");
+        });
+    });
   });
+
   describe("GET /api/reviews/:toilet_id", () => {
     test("200 should return all reviews for the specific toilet_id", () => {
       return request(app)
@@ -228,7 +257,6 @@ describe("API FLUSHME", () => {
         .expect(201)
         .then((response) => {
           const { posted } = response.body;
-          console.log(posted, "<<< the response in the test");
           expect(posted).toEqual({
             results: {
               _id: "65dc718934d18479d71de6e3",
@@ -255,6 +283,44 @@ describe("API FLUSHME", () => {
               _id: expect.any(String),
             },
           });
+        });
+    });
+
+    test("404- Returns a Not Found message is trying to post on a non-existent toilet", async () => {
+      const testReview = {
+        toilet_id: "65dc718934d18479d71de7e0",
+        review: "Ran out of toilet paper quite a often",
+      };
+      return request(app)
+        .post(`/api/review/${testReview.toilet_id}`)
+        .send(testReview)
+        .expect(404)
+        .then(({ _body }) => {
+          expect(_body.msg).toBe("No toilet to review.");
+        });
+    });
+    test.only("400- Returns a bad request message if toilet_id missing", async () => {
+      const testReview = {
+        review: "Ran out of toilet paper quite a often",
+      };
+      return request(app)
+        .post(`/api/review/${testReview.toilet_id}`)
+        .send(testReview)
+        .expect(400)
+        .then(({ _body }) => {
+          expect(_body.msg).toBe("Missing toilet id.");
+        });
+    });
+    test("400- Returns a bad request message if review body is missing", async () => {
+      const testReview = {
+        toilet_id: "65dc718934d18479d71de7e0",
+      };
+      return request(app)
+        .post(`/api/review/${testReview.toilet_id}`)
+        .send(testReview)
+        .expect(400)
+        .then(({ _body }) => {
+          expect(_body.msg).toBe("Cannot post an empty review.");
         });
     });
   });

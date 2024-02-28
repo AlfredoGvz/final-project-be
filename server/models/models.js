@@ -1,7 +1,6 @@
 const { client, connectToMongoDB, database } = require("../connection");
 const { ObjectId } = require("mongodb");
 
-console.log(database, "I the database am in the model");
 async function getCities() {
   try {
     await connectToMongoDB();
@@ -16,7 +15,6 @@ async function getCities() {
 }
 
 async function getCityToilets(city_name, queries) {
-  console.log(queries);
   const cityName = city_name[0].toUpperCase() + city_name.slice(1);
   const acceptedQueries = ["unisex", "changing_table", "accessible", "none"];
   const toiletFilterCriteria = {
@@ -33,7 +31,6 @@ async function getCityToilets(city_name, queries) {
       toiletFilterCriteria[val] = queries[val] === "true";
     }
   }
-  console.log(toiletFilterCriteria);
 
   await connectToMongoDB();
   const db = client.db(database);
@@ -61,6 +58,10 @@ async function updateCityToilets(toilet_id, inc_vote) {
   //1- To update a document, use findOneAndUpdate passing item id, value to update and the returnDocument instruct to be return the updated object
 
   //2- To be able to find item by id in params, we gonna need to create an instance of ObjectId by using new ObjectId and passing in the id in the params.
+  if (inc_vote === undefined || typeof inc_vote !== "number") {
+    return Promise.reject("Invalid vote value.");
+  }
+
   try {
     await connectToMongoDB();
     const db = client.db(database);
@@ -71,7 +72,9 @@ async function updateCityToilets(toilet_id, inc_vote) {
     const result = await toiletsCollection.findOneAndUpdate(itemId, update, {
       returnDocument: "after",
     });
-
+    if (result === null) {
+      return Promise.reject("No toilet to vote on.");
+    }
     return result;
   } catch (error) {
     console.log(error, " i am a mistake");
@@ -85,9 +88,7 @@ async function getReviewsById(id) {
     await connectToMongoDB();
     const db = client.db(database);
     const reviewsCollection = db.collection("reviews");
-    // console.log(id, "<<<successfully getting parasm through");
     const reviews = await reviewsCollection.find({ toilet_id: id }).toArray();
-    // console.log(reviews, "<<< all the reviews in the model");
     return reviews;
   } catch (err) {
     console.log(err, "<<< err in the model block");
@@ -95,12 +96,18 @@ async function getReviewsById(id) {
 }
 
 async function insertReviewById(toilet_id, review) {
+  console.log(toilet_id, "in model");
+  if (review === undefined || review === "") {
+    return Promise.reject("Cannot post an empty review.");
+  } else if (toilet_id === undefined || toilet_id === "") {
+    return Promise.reject("Missing toilet id.");
+  }
+
   try {
     await connectToMongoDB();
     const db = client.db(database);
     const reviewsCollection = await db.collection("reviews");
-    // console.log(toilet_id, "<<<toilet id in the model");
-    // console.log(review, "<<< the comment in the model");
+
     const formattedReview = {
       toilet_id: toilet_id,
       review: review,
@@ -117,7 +124,10 @@ async function insertReviewById(toilet_id, review) {
     const result = await toiletsCollection.findOneAndUpdate(itemId, update, {
       returnDocument: "after",
     });
-    return { results: result, review: formattedReview };
+    if (result === null) {
+      return Promise.reject("No toilet to review.");
+    }
+    // return { results: result, review: formattedReview };
   } catch (err) {
     console.log(err, "<<< err in the model block");
   }
