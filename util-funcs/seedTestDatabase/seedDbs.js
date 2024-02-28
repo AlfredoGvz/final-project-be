@@ -6,7 +6,7 @@ const getOriginalData = require("./processFunctions/captureOriginalData");
 
 async function seed() {
   try {
-    await getOriginalData();
+    // await getOriginalData();
     // console.log("collections have been dropped");
     await dropCollections();
     // console.log("toilets collection seeded");
@@ -20,5 +20,5 @@ async function seed() {
     console.error("Error while seeding database:", error);
   }
 }
-
+// seed();
 module.exports = seed;

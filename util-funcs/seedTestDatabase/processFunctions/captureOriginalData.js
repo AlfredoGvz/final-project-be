@@ -22,5 +22,5 @@ async function getAllOriginalInfo() {
     await client.close();
   }
 }
-
-module.exports = getAllOriginalInfo;
+// getAllOriginalInfo();
+// module.exports = getAllOriginalInfo;

@@ -9,7 +9,8 @@ async function populateDbReview() {
     const jsonToInsert = reviewsData.map((review) => ({
       _id: new ObjectId(review._id),
       toilet_id: review.toilet_id,
-      comment: review.comment,
+      review: review.review,
+      created_at: review.created_at,
     }));
     await db.collection("reviews").insertMany(jsonToInsert);
   } catch (error) {
